@@ -1,0 +1,336 @@
+---
+title: "CV - Allison D. Binley"
+output:
+  html_document:
+    includes:
+      in_header: CV-cover.html
+---
+
+allisonbinley@cmail.carleton.ca
+
+
+## SUMMARY
+
+I am a PhD candidate at Carleton University specializing in quantitative ecological conservation. My work focuses on integrating existing data, and in particular community science data, to conduct broad-scale conservation research. I have a strong background in spatial statistics, decision science, data integration, literature review and big data analysis. My network of collaborators includes scientists from government (Environment and Climate Change Canada, Canadian Wildlife Service), non-governmental organizations (The Nature Conservancy), and other academic institutions (The Cornell Lab of Ornithology, The University of Queensland, The University of British Columbia, and the University of Amsterdam).   
+
+## EDUCATION
+
+**Doctor of Philosophy, Biology** (fast-track, in progress) 
+2018 – present 
+Carleton University, Ottawa
+(12.0/12.0 GPA)
+
+*Dissertation Title: Minimizing data waste: integrating existing data to improve conservation decisions and outcomes*
+
+Advisors: Joseph Bennett (CU), Scott Wilson (ECCC/UBC), Richard Schuster (NCC/CU)
+
+**Bachelor of Science with distinction, Biology** 
+November 2015
+University of Victoria, Victoria BC
+(7.98/9.0 GPA)
+•	Academic Exchange
+July 2013 – July 2014
+University of Wollongong, NSW, Australia
+
+
+## AWARDS & GRANTS
+
+*2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mitacs [Globalink Award](https://www.mitacs.ca/en/programs/globalink) ($6000)  
+
+*2021-2024*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NSERC [Canada Graduate Scholarship](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsd-bescd_eng.asp) – Doctoral ($105000)  
+
+*2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;George R. Carmody Graduate Student Travel Award ($2264)  
+
+*2020-2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ontario Graduate Scholarship ($15000)  
+
+*2020*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyndham Scholarship for Graduate Students in Biology ($750)  
+
+*2020*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;George R. Carmody Graduate Student Travel Award ($750)  
+
+*2020*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;American Ornithological Society Student Membership Award  
+
+*2020*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Domestic Entrance Award – Doctoral ($1500)  
+
+*2020-2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Departmental Scholarship 2 ($6712)  
+
+*2020-2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Departmental Scholarship 3 ($2000)  
+
+*2019*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Travel Bursary ($700)  
+
+*2018-2019*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Departmental Scholarship 2 ($4900)  
+
+*2018-2019*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Departmental Scholarship 3 ($1000)  
+
+*2018*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carleton University Domestic Entrance Award - Masters ($2000)  
+
+*2015*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Research Internships in Science and Engineering [(RISE)](https://www.daad.org/en/find-funding/undergraduate-opportunities/research-internships-in-science-and-engineering-rise/), International Scholarship ($4500)  
+
+*2010-2015*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Golden Key](https://goldenkey.org/canada/) International Honour Society (top 15% of students)  
+
+*2011*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Victoria Dean’s List  
+
+*2011-2015*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Victoria President’s Award ($1500)  
+
+*2010*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Victoria Come to Campus Grant ($1000)  
+
+*2010*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University of Victoria Entrance Scholarship ($2500)
+
+
+## PEER-REVIEWED PUBLICATIONS
+
+[Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)
+
+**Binley, A.D.**\*, Proctor, C.A.\*, Pither, R., Davis, S.A., Bennett, J.R. 2021. [The unrealized potential of community science to support research on the resilience of protected areas.](https://doi.org/10.1111/csp2.376) Conservation Science and Practice, e376. \*authors contributed equally
+
+Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., **Binley, A.D.**, Francis, C.M., Avery-Gomm, S., et al. 2021. [Key information needs to move from knowledge to action for biodiversity conservation in Canada.](https://doi.org/10.1016/j.biocon.2021.108983) Conservation Biology, 108983.
+
+Buxton, R.T., Bergman, J.N., Lin, H.Y., **Binley, A.D.**, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett, J.R., 2020. [Three lessons conservation science can learn from the COVID-19 pandemic](10.1111/cobi.13652 ) Conservation Biology.
+
+Butt, N.B., Rosner-Katz, H., **Binley, A.D.**, Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. [Threats, costs and probability of success: informing conservation choices. Frontiers in Ecology and Evolution.](https://doi.org/10.3389/fevo.2020.00223) 8:1-8. 
+
+Bergman\*, J.N., **Binley, A.D.**\*, Murphy\*, R.E., Proctor\*, C.A., Nguyen\*, A.T., Urness\*, E.S., Vala\*, M.A., Vincent\*, J.G., Fahrig, L., Bennett, J.R. 2020. [How to rescue Ontario’s Endangered Species Act: A Biologist’s perspective.](https://doi.org/10.1139/facets-2019-0050) FACETS. 5(1):423-431.
+\*authors contributed equally
+
+Gordon, E.R., Butt, N., Rosner-Katz, H., **Binley, A.D.**, and Bennett, J.R., 2019. [Relative costs of conserving threatened species across taxonomic groups.](https://doi.org/10.1111/cobi.13382) Conservation Biology, 34(1), 276-281.
+
+Bergman, J.N., Bennett, J.R., **Binley, A.D.**, Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and Madliger, C.L., 2019. [Scaling from individual physiological measures to population-level demographic change: Case studies and future directions for conservation management.](https://doi.org/10.1016/j.biocon.2019.108242) Biological Conservation, 238, 108242.
+
+## PUBLICATIONS IN REVIEW
+
+Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Science (submitted 23/09/21) ID: abm5093
+
+Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The perils and promise of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
+
+Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. In review in Biological Conservation. 
+
+Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. In review in Canadian Field-Naturalist. ID: 2877
+
+
+## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
+
+**Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
+
+Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally
+
+## PROFESSIONAL HISTORY
+
+**Contract Instructor**  
+*Carleton University, Sep – Dec 2021*  
+•	Instructor for second year undergraduate environmental science course, Environmental Methods and Analysis  
+•	Provided course content both in person and online  
+
+
+**Social Media Coordinator**	
+*Geomatics and Landscape Ecology Lab [(GLEL)](https://twitter.com/glelcarleton), May 2019 – present*  
+•	Showcased GLEL members’ accomplishments and publications via social media  
+•	Communicated scientific ideas and research to a broad audience  
+
+**Teaching Assistant**  	 
+*Carleton University, Sep 2018 - present*  
+•	Courses: Biology, Ornithology, Environmental Methods and Analysis, Environmental Decisions, Natural History  
+•	Facilitated group discussions and laboratory experiments, fostered learning through constructive feedback on assignments and during office hours, created and taught lectures  
+
+**Research Assistant**											   
+*Carleton University, Sep 2018 - present*  
+•	Coordinated and executed research projects outside of thesis requirements, on topics including: community science; endangered species recovery, legislation and policy; climate, land-use change and governance risks to conservation; and protected area research and design (see peer-reviewed publications)  
+•	Supported other lab projects by performing data extraction and entry, assisting with fieldwork, providing detailed manuscript revisions and feedback, designing and performing literature reviews, and organizing and analyzing survey data  
+
+**Friday Discussion Coordinator**	 
+*Geomatics and Landscape Ecology Lab (GLEL), Dec 2018 – September 2020*
+•	Coordinated and facilitated weekly meetings with members of government, the community, and academia to discuss current issues in ecology, conservation and policy  
+•	Provided feedback on manuscripts, planned seminars and workshops, and orchestrated comments on government policy and legislation  
+
+**Research Scientist – contract**	
+*Environment and Climate Change Canada, Jan – Apr 2020*
+•	Designed and implemented a literature review on how community science can contribute to the design of resilient protected area networks through literature review and Bayesian topic modeling  
+•	Produced a deliverable within 4 months and successfully [published](https://doi.org/10.1111/csp2.376) within a year  
+
+**[Aquatic Invasive Species Inspector](https://www2.gov.bc.ca/gov/content/invasive-mussels/invasive-mussel-defence-program)**  
+*BC Ministry of the Environment and Climate Change Strategy, May 2017 – Aug 2018*  
+•	Enforced compliance with the Wildlife Act, actively preventing the spread of harmful invasive species  
+•	Identified, collected and removed invasive species from watercraft  
+•	Partnered with multiple provincial and federal law enforcement agencies to maximize program effectiveness  
+•	Facilitated the collection of data to assess program success   
+•	Disseminated education and outreach materials to the public   
+
+**Research Intern [(RISE scholarship)](https://www.daad.org/en/find-funding/undergraduate-opportunities/research-internships-in-science-and-engineering-rise/)**  
+*Marine Science Centre (Germany), May – Aug 2015*
+•	Awarded a highly competitive international scholarship to collaborate on multiple research projects investigating cognitive and sensory ecology in marine pinnipeds  
+•	Conducted experiments, animal training and welfare assessments, and guided scientific report writing while living on a research vessel in the Baltic Sea  
+
+**Science Intern**  
+*University of Wollongong (Australia), Jan – Jun 2014*  
+•	Supported work on a [PhD project](https://zoologistjones.wordpress.com/phenotypicplasticity/) investigating animal husbandry and captive breeding methods in mice and tadpoles  
+•	Performed morphological measurements, recorded data, and observed behavioural analysis and dissections  
+•	Maintained colonies of breeding house mice in captivity  
+
+**Research Assistant**
+*Eco-Care Technologies*  
+•	Conducted research developing environmentally friendly biodegradable herbicides and pesticides
+•	Tested the efficacy of products in controlled greenhouse and field experiments 
+•	Authored confidential reports summarizing results and progress
+
+## VOLUNTEER EXPERIENCE
+
+**Identifying Canada’s Information Needs – Meeting Biodiversity Conservation Targets**  
+*Workshop hosted by Carleton University / Environment and Climate Change Canada, Jan 2020*
+•	Contributed significantly to the design of surveys collecting data on biodiversity information needs according to experts  
+•	Collated information from round-table discussions between researchers from academic institutions, government, non-governmental organizations and Indigenous Knowledge holders  
+•	Delivered results of discussions and collaborated with coordinators to summarize data from the workshop  
+•	Contributed to writing and revising the final [publication](https://doi.org/10.1016/j.biocon.2021.108983) as a coauthor 
+
+**Gatineau Park Citizen Science Surveys**  
+*[Friends of Gatineau Park](https://www.friendsofgatineaupark.com/home.html), Summer 2019*  
+•	Monitored various taxa in Gatineau Park, Quebec, as part of a community science initiative  
+
+**Coastal Waterbird Surveys**  
+*Birds Canada, Feb 2017 – August 2018*  
+•	Performed [coastal waterbird surveys](https://www.birdscanada.org/bird-science/british-columbia-coastal-waterbird-survey/) to improve our understanding of BC coastal waterbird ecology and the effects of human activity  
+•	Conducted counts and collected data on [beached carcasses](https://www.birdscanada.org/bird-science/beached-bird-survey/) along important coastal ecosystems  
+
+**Bird Banding**                                                      						
+*Wild Research/ [Iona Island Bird Observatory](http://wildresearch.ca/programs/iona-island-bird-observatory/), Apr – May 2018*  
+•	Logged approximately 100 hours extracting and banding birds (25 passerine species total) during spring migration  
+•	Proficient at mist net set up and take down  
+•	Determined and recorded species, sex, wing cord, fat, and aged birds using molt pattern, skulling, and other techniques outlined in Pyle  
+•	Performed analysis for funding proposal for MOTUS Wildlife Tracking System to tag and track species movements  
+
+**[Northern Spotted Owl Captive Breeding Program](https://www.nsobreedingprogram.com/)**  
+*British Columbia Conservation Foundation, Jan – May 2017*  
+•	Supported a captive breeding project for the recovery of endangered Northern Spotted Owls  
+•	Designed fundraising and outreach materials   
+•	Performed facility and rodent colony maintenance  
+
+**Coral Reef Restoration**  
+*[Save Cambodian Marine Life](https://www.diveagainstdebris.org/diver/save-cambodian-marine-life) (Cambodia), Oct – Nov 2016*  
+•	Enhanced a Coral Reef restoration project with an NGO on a remote island in Cambodia, establishing a coral nursery and developing education programs and outreach to be delivered to locals   
+•	Spearheaded coral reef and beach clean ups and collected data for PADI’s Project AWARE  
+•	Lived and worked in a rustic remote setting with limited access to running water, power, and amenities  
+
+**Strmec Castle Project Volunteer**				                				  
+*Strmec Castle Project (Slovenia), Jan 2016*  
+•	Contributed to the development of a sustainable community based around a restored castle in the Kočevje Forest  
+•	Collaborated on sustainability projects such as aquaponics and organic farming  
+
+**English Tutor**  							                 				 
+*[Angloville](https://angloville.com/adult-programmes/) (Poland), Nov 2015*  
+•	Helped Polish participants to improve their English language skills through interaction and conversation exercises   
+•	Worked with a wide variety of people from different cultures and with varying degrees of English fluency  
+
+**Guest Blogger**  							                 				 
+*Zoologist Jones, 2013-2015*  
+•	Wrote and published a series of [guest blogs](https://zoologistjones.wordpress.com/2017/04/25/zoology-internships/) on early career development in the zoological sciences  
+
+
+## ACADEMIC SUPERVISION
+
+**S. Williams**, Carleton University. Honours Undergraduate Thesis. Exploring the use of community science to mitigate human conflict with undesirable wildlife *(2021-2022)*
+
+**S. Davis**, Carleton University. Dean’s Summer Research Internship Undergraduate Student, Research Assistant. Potential for citizen science to fill gaps in endangered species conservation; The unrealized potential of citizen science to support research on the resilience of protected areas *(2019 - 2020)*
+
+**V. Greenough**, Carleton University. ACT to employ program Undergraduate Student. Potential for citizen science to fill gaps in endangered species conservation *(Fall 2019)*
+
+## TEACHING EXPERIENCE
+
+*Sep – Dec 2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Binley, A.D.** and Hudgins, E. Environmental Methods and Analysis. Contract Instructor, Carleton University  
+
+*March 2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Binley, AD.** Coordinating and marking student presentations (ENSC 2002)  
+
+*January 2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Binley, AD.** Conducting research using community science. Guest Lecture, Environmental Methods and Analysis (ENSC 2002), Carleton University  
+
+*October 2019*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Binley, AD.** Citizen science for avian monitoring and conservation. Guest Lecture, Ornithology (BIOL 4500A), Carleton University  
+
+*March 2019*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Binley, AD.**, Vincent, JG, Bennett, JR. Citizen Science for Spatial Prioritization. Guest Lecture, Environmental Decisions (ENSC 4002), Carleton University   
+
+## CONFERENCE PRESENTATIONS, TALKS, & INVITED SEMINARS 
+
+Binley, AD. Maximizing the benefits of citizen science for conservation (presentation – invited speaker). The Ecology and Evolution group, University of Calgary. October 2021.
+
+Binley, AD., and Proctor, CA. The unrealized potential of community science to support research on the resilience of protected areas (presentation – invited speaker). Pathway to Canada Target 1 Connectivity Working Group: Mini-Symposium, Environment and Climate Change Canada, February 2021
+
+Binley, AD. Assessing avian population trend estimates: comparing eBird and the BBS. Cornell Lab of Ornithology Seminar Series (presentation - invited speaker), February 2021
+
+Binley, AD. Assessing avian population trend estimates: comparing eBird and the BBS (presentation – invited speaker). Breeding Bird Survey Symposium, North American Ornithological Conference (virtual), August 2020
+
+Binley, AD. Overcoming conservation challenges with citizen science (presentation – invited speaker). Eastern Ontario Natural History Society, University of Ottawa, ON. March 2020
+
+Binley, AD., and Vincent, JG. How scientists (and citizens!) help birds. Girl Guides of Canada, Sandy Hill Community Centre, Ottawa, ON. March 2020.
+
+Binley, AD. Assessing avian population trend estimates: comparing eBird and the BBS (poster). Society of Canadian Ornithologists Meeting, August 2019
+
+Binley, AD. Optimization of biodiversity monitoring and modeling citizen science data. Cornell University, May 2019
+
+Binley, AD. Thesis presentation: how citizen science data can fill gaps in biodiversity monitoring. GLEL Friday Discussion 5 Minute Talks, Carleton University, May 2019
+
+PROFESSIONAL SERVICE
+___________________________________________________________________________________________________
+
+Peer Review: Landscape Ecology, FACETS (3), Avian Conservation and Ecology
+
+Supervised Peer Review: Conservation Science and Practice
+
+Oral and Poster Presentation Judge: Ottawa-Carleton Institute of Biology 16th annual Symposium, May 2019
+Category: Genetics and Physiology
+
+CAREER DEVELOPMENT COURSES AND CERTIFICATIONS
+___________________________________________________________________________________________________
+
+2021	Introduction to Evidence Synthesis (November 2021)
+	Introduction to evidence synthesis, with a focus on systematic reviewing and systematic mapping. Participants will gain an overview of the activities that are necessary to maximize comprehensiveness, transparency, objectivity and reliability throughout the review process.
+
+2018-2020	Datacamp Online Data Skills Courses 
+Introduction to R, Intermediate R, Introduction to the Tidyverse, Data Visualization with ggplot2, Importing Data in R, Data Manipulation in R with dplyr, Cleaning Data in R, Reporting with R Markdown, Statistical Modeling in R, Working with Geospatial Data in R, Fundamentals of Bayesian Data Analysis in R, Nonlinear Modeling in R with GAMs, Spatial Analysis in R with sf and raster, Introduction to Git, Writing Functions in R, Machine Learning with Tree-Based Models in R, Text Analysis in R, Topic Modeling in R, Scalable Data Processing in R, Spatial Statistics in R	
+
+2018-2019	Graduate-level courses (CU) 
+Geographic Information Systems, Advances in Applied Ecology, Biostatistics: Analysis of Ecological Relationships, Landscape Ecology
+
+2019		Software Carpentry Workshop
+		Automating tasks with Unix Shell (Bash), programming in R, and version control with Git
+
+2019		Media and Communications Training
+How to effectively communicate science and research through various media, including social media and phone and video interviews
+
+2019		Chirps, Tweets and Trills
+		Learn to identify birds by sound
+
+2018, 2019	How to Write a Paper that People Will Read (and Cite!)
+		Workshop hosted by Dr. Lenore Fahrig on scientific writing
+
+2018		WHMIS Lab Safety
+
+2018		Defensive Driving
+		Practiced skills such as towing a trailer, vehicle maintenance and circle checks, defensive driving techniques
+
+2018		Wild Research Bird Banding Course
+		Learn to age, sex, and identify species, recognize molt limits, set up mist nets, extract and band passerines
+
+2017		Defensive Driving
+		Practiced skills such as towing a trailer, vehicle maintenance and circle checks, defensive driving techniques
+
+2016		PADI Open Water Dive Certification
+
+2015		Rocky Point Bird Observatory Bird Banding Course
+		Learn to age, sex, and identify species, recognize molt limits, set up mist nets, extract and band passerines
+
+2014-2015	Upper-level undergraduate courses (UVIC) 
+Advanced Topics in Ecology, Conservation Biology, Biotechnology
+
+2013		Kioloa Field Monitoring Course (UOW)
+Practice field skills for monitoring birds, mammals, plants, and amphibians, including live trapping, hair and sand traps, point counts, and transect and quadrat surveys
+
+2013		Bamfield Marine Science Field Course (UVIC)
+		Field methods for surveying marine birds, plants, fish and invertebrates
+
+2013		Pleasure Craft Operator’s License
+
+2008		Royal Conservatory of Music: Grade 9 Piano (Practical, History & Harmony)
+
+
+MEDIA
+
+June 2020 	Interview - “Minster faces key decision on conserving endangered species, environmentalists say”. David Haines, Queen’s Park Briefing
+
+
+
+
+

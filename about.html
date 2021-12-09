@@ -13,20 +13,27 @@
 
 <title>About</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<div><img src="img/about.jpg" width="100%" align="center"></div>
+<div><img src="img/canoe_amazon.JPG" width="100%" align="center"></div>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -38,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -90,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -281,42 +239,30 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Brandon Edwards</a>
+      <a class="navbar-brand" href="index.html">Allison D. Binley</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="about.html">
-    <span class="fa fa-user"></span>
-     
-    About
-  </a>
+  <a href="about.html">About</a>
 </li>
 <li>
-  <a href="software.html">
-    <span class="fa fa-code"></span>
-     
-    Software
-  </a>
+  <a href="CV.html">CV</a>
 </li>
 <li>
-  <a href="publications.html">
-    <span class="fa fa-pencil"></span>
-     
-    Publications
-  </a>
+  <a href="publications.html">Publications</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/BrandonEdwards">
+  <a href="https://github.com/adbinley">
     <span class="fa fa-github"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/brandonpmedwards/">
-    <span class="fa fa-linkedin"></span>
+  <a href="https://twitter.com/AllisonBinley">
+    <span class="fa fa-twitter"></span>
      
   </a>
 </li>
@@ -325,7 +271,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -334,21 +280,11 @@ $(document).ready(function () {
 </div>
 
 
-<div id="applied-statistician" class="section level2">
-<h2>Applied Statistician</h2>
-<p>I am currently an PhD Candidate at Carleton University, co-supervised by Drs <a href="https://carleton.ca/biology/people/adam-smith/">Adam Smith</a> and <a href="https://carleton.ca/biology/people/joseph-bennett/">Joe Bennett</a>. My research focuses on improving estimates of bird population sizes via detectability offsets. I am currently lead analyst on the <a href="http://na-pops.org/">NA-POPS project</a>, which is seeking to develop an open-access database of detectability functions to account for biases in bird detectability during on- and off-road point count bird surveys. I use R and Stan to develop multi-species Bayesian hierarchical removal and distance models to generate estimates of a bird species’ availability and detectability, given a number of seasonal and spatial covariates.</p>
-<p>In 2020, I completed my <strong>BSc in Mathematical Science</strong> in the <em>Statistics</em> stream, with an emphasis in Computer Science at the <a href="https://www.uoguelph.ca/">University of Guelph</a>. My honours thesis, supervised by <a href="https://danielgillis.wordpress.com/">Dr Daniel Gillis</a>, compared typologies of the Deviance Information Criterion (DIC) within the context of generalized spatial Poisson mixture models.</p>
-<p>Throughout my undergraduate career, I worked as an Undergraduate Research Assistant under the supervision of Dr Gillis and <a href="https://www.uoguelph.ca/ib/jacobs">Dr. Shoshanah Jacobs</a>. I developed the Great Lakes Piping Plover Biological Modeling Program, which seeks to create <a href="https://github.com/BrandonEdwards/melodus">tools</a> to assist in management and recovery of Great Lakes piping plovers (<em>Charadrius melodus circumcinctus</em>). You can read more about an 8-month co-op term <a href="wt1.html">here</a>.</p>
-<p>I also completed a <a href="wt3.html">4-month co-op term</a> working as a Bird Population Monitoring Analyst at Environment and Climate Change Canada in Summer 2018. In that position, I tested the use of generalized additive mixed-models for improving status and trend estimates of North American breeding birds, and developed the R package <a href="software.html#bbsBayes">bbsBayes</a>.</p>
-</div>
-<div id="amateur-naturalist-nature-photographer" class="section level2">
-<h2>Amateur Naturalist &amp; Nature Photographer</h2>
-<p>When I’m not in front of a computer screen writing code, I am exploring the world around me. My main passion lies in ornithology, and my free time is often spent birding. I contribute as much of my birding as I can to citizen science; you can find my eBird profile <a href="https://ebird.org/profile/NjA1NTU0/CA-ON">here</a> (you may need an eBird account)! Birding with people of many other interests has allowed me to expand my own interests into the world of herps, moths, odes, and wildflowers.</p>
-<p>While statistics and computer science will be at the forefront of my academic research, I hope to also be able to contribute to natural history research through my amateur field observations.</p>
-</div>
+<p>I am a PhD candidate at Carleton University specializing in quantitative biodiversity conservation. The aim of my thesis research is to examine how advances in the use and integration of big datasets are crucial for conducting more effective conservation research and improving management decisions and outcomes. My work focuses on integrating existing data, particularly community science data, to conduct broad-scale conservation research. I have a strong background in spatial statistics, decision science, data integration, literature review and big data analysis, and my research spans local, hemispheric and global scales.</p>
+<p>I completed my undergraduate studies at the University of Victoria in 2015, with a Bachelor of Science in Biology. In the past, I have worked on a wide variety of projects, including <a href="https://zoologistjones.wordpress.com/phenotypicplasticity/">captive breeding research</a> in Australia, <a href="https://www.marine-science-center.de/home-86.html">pinniped cognitive and sensory ecology</a> in Germany, and <a href="https://www.diveagainstdebris.org/diver/save-cambodian-marine-life">coral reef restoration</a> in Cambodia. More recently I worked for the Conservation Officer Service in British Columbia preventing the spread of <a href="https://www2.gov.bc.ca/gov/content/invasive-mussels/invasive-mussel-defence-program">aquatic invasive species</a>, and volunteered on a number of bird monitoring and banding projects with <a href="https://www.birdscanada.org/">Birds Canada</a> and <a href="http://wildresearch.ca/">Wild Research</a>.</p>
 <div id="contact-me" class="section level2">
 <h2>Contact Me</h2>
-<p><strong>Email</strong>: <a href="mailto:brandonedwards3@cmail.carleton.ca" class="email">brandonedwards3@cmail.carleton.ca</a></p>
+<p><strong>Email</strong>: <a href="mailto:allisonbinley@cmail.carleton.ca" class="email">allisonbinley@cmail.carleton.ca</a></p>
 </div>
 
 
@@ -378,7 +314,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

@@ -6,34 +6,39 @@ output:
       in_header: publications-cover.html
 ---
 
-**Edwards BPM**, Smith AC. (2021). bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. *Journal of Open Research Software* 9(1). http://doi.org/10.5334/jors.329
+## PEER-REVIEWED PUBLICATIONS
 
-Cooke SJ, Soroye P, Brooks JL, Clarke J, Jeanson AL, Berberi A, Piczak ML, Reid CH, Desforges JE, Guay JD, Drake AK, Jardine AM, Ethier JP, Keefe HE, Medd AM, **Edwards BPM**, et al. (2021). Ten considerations for conservation policy makers for the post-COVID-19 transition. *Environmental Reviews* 29(999). https://doi.org/10.1139/er-2021-0014
+[Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)  
+[Research Gate](https://www.researchgate.net/profile/Allison-Binley)
 
-Smith AC, **Edwards BPM**. (2021). North American Breeding Bird Survey status and trend estimates to inform a wide-range of conservation needs, using a flexible Bayesian hierarchical generalized additive model. *Ornithological Applications* 123(1). https://doi.org/10.1093/ornithapp/duaa065
+**Binley, A.D.**\*, Proctor, C.A.\*, Pither, R., Davis, S.A., Bennett, J.R. 2021. [The unrealized potential of community science to support research on the resilience of protected areas.](https://doi.org/10.1111/csp2.376) Conservation Science and Practice, e376. \*authors contributed equally
 
-Gillis D, **Edwards BPM**. (2019). The utility of joinpoint regression for estimating population parameters given changes in population structure. *Heliyon* 5(11), e02515. https://doi.org/10.1016/j.heliyon.2019.e02515
+Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., **Binley, A.D.**, Francis, C.M., Avery-Gomm, S., et al. 2021. [Key information needs to move from knowledge to action for biodiversity conservation in Canada.](https://doi.org/10.1016/j.biocon.2021.108983) Conservation Biology, 108983.
 
-Rose D, **Edwards BPM**, Kett R, Yodzis M, Angevaare J, Gillis D. (2017). Exploring Anthropogenic Activities and Management Decisions Using a Novel Environmental Agent Based Model. *2017 IEEE Canada International Humanitarian Technology Conference (IHTC)*, 85-89. https://doi.org/10.1109/IHTC.2017.8058206
+Buxton, R.T., Bergman, J.N., Lin, H.Y., **Binley, A.D.**, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett, J.R., 2020. [Three lessons conservation science can learn from the COVID-19 pandemic](10.1111/cobi.13652 ) Conservation Biology.
+
+Butt, N.B., Rosner-Katz, H., **Binley, A.D.**, Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. [Threats, costs and probability of success: informing conservation choices. Frontiers in Ecology and Evolution.](https://doi.org/10.3389/fevo.2020.00223) 8:1-8. 
+
+Bergman\*, J.N., **Binley, A.D.**\*, Murphy\*, R.E., Proctor\*, C.A., Nguyen\*, A.T., Urness\*, E.S., Vala\*, M.A., Vincent\*, J.G., Fahrig, L., Bennett, J.R. 2020. [How to rescue Ontario’s Endangered Species Act: A Biologist’s perspective.](https://doi.org/10.1139/facets-2019-0050) FACETS. 5(1):423-431.
+\*authors contributed equally
+
+Gordon, E.R., Butt, N., Rosner-Katz, H., **Binley, A.D.**, and Bennett, J.R., 2019. [Relative costs of conserving threatened species across taxonomic groups.](https://doi.org/10.1111/cobi.13382) Conservation Biology, 34(1), 276-281.
+
+Bergman, J.N., Bennett, J.R., **Binley, A.D.**, Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and Madliger, C.L., 2019. [Scaling from individual physiological measures to population-level demographic change: Case studies and future directions for conservation management.](https://doi.org/10.1016/j.biocon.2019.108242) Biological Conservation, 238, 108242.
+
+## PUBLICATIONS IN REVIEW
+
+Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Science (submitted 23/09/21) ID: abm5093
+
+Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The perils and promise of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
+
+Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. In review in Biological Conservation. 
+
+Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. In review in Canadian Field-Naturalist. ID: 2877
 
 
-[Google Scholar Profile](https://scholar.google.ca/citations?user=rFIqtwgAAAAJ&hl=en)
+## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
 
-## Invited Symposia
-**Edwards BPM**, Smith AC. (August 2020). Open, accessible, and customizable analysis of North American Breeding Bird Survey data using the R package bbsBayes. *7th North American Ornithological Conference* (Symposium: Back to the future of the breeding bird survey), Virtual Conference. 
+**Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
 
-**Edwards BPM**, Smith AC, Hudson M-AR, Francis CM, Pardieck KL, Ziolkowski Jr DJ. (August 2019). bbsBayes: An R Package for Hierarchical Bayesian Modelling of Breeding Bird Survey Data. *Society of Canadian Ornithologists Annual Meeting* (Symposium: R for Ornithologists: Perspectives from UseRs to programmeRs), Quebec City, QC. 
-
-## Select Conference Presentations
-**Edwards BPM**, Smith AC, NA-POPS Team. (August 2021). Point count offsets for population sizes of North American landbirds. *American Ornithology 2021*, Virtual. (Paper)
-
-**Edwards BPM**, Jacobs S, Gillis D. (June 2019). Risk Assessment of Great Lakes piping plovers using eABM: An R package to run Environment Agent-based Models. *American Ornithology 2019*, Anchorage, AK. (Paper)
-
-**Edwards BPM**, Jacobs S, Gillis D. (August 2018). Assessing the effects of beach raking on piping plover reproductive success using an environmental agent-based model. *42nd Annual Waterbirds Society Meeting*, Vancouver, BC. (Paper)
-
-**Edwards BPM**, Smith AC. (August 2018). Improved population trajectories for North American swallows, swifts, and nightjars with a hierarchical Bayesian GAM. *International Ornithological Congress 2018*, Vancouver, BC. (Poster)
-
-**Edwards BPM**, Gillis D. (August 2017). Modelling habitat loss in Piping Plovers using an environmental agent-based model. *American Ornithology 2017*, Lansing, MI. (Poster)
-
-Rose D, **Edwards BPM**, Kett R, Yodzis M, Angevaare J, Gillis D. (July 2017). Exploring Anthropogenic Activities and Management Decisions Using a Novel Environmental Agent Based Model. *IEEE International Humanitarian Technology Conference*, Guelph, ON. (Paper)
-
+Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally

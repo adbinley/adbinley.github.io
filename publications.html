@@ -13,20 +13,27 @@
 
 <title>Publications</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<div><img src="img/rwbl.jpg" width="100%" align="center"></div>
+<div><img src="img/leye2.jpg" width="100%" align="center"></div>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -38,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -55,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -90,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -110,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -171,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -183,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -194,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -209,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -281,42 +239,30 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Brandon Edwards</a>
+      <a class="navbar-brand" href="index.html">Allison D. Binley</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="about.html">
-    <span class="fa fa-user"></span>
-     
-    About
-  </a>
+  <a href="about.html">About</a>
 </li>
 <li>
-  <a href="software.html">
-    <span class="fa fa-code"></span>
-     
-    Software
-  </a>
+  <a href="CV.html">CV</a>
 </li>
 <li>
-  <a href="publications.html">
-    <span class="fa fa-pencil"></span>
-     
-    Publications
-  </a>
+  <a href="publications.html">Publications</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/BrandonEdwards">
+  <a href="https://github.com/adbinley">
     <span class="fa fa-github"></span>
      
   </a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/brandonpmedwards/">
-    <span class="fa fa-linkedin"></span>
+  <a href="https://twitter.com/AllisonBinley">
+    <span class="fa fa-twitter"></span>
      
   </a>
 </li>
@@ -325,7 +271,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -334,25 +280,29 @@ $(document).ready(function () {
 </div>
 
 
-<p><strong>Edwards BPM</strong>, Smith AC. (2021). bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. <em>Journal of Open Research Software</em> 9(1). <a href="http://doi.org/10.5334/jors.329" class="uri">http://doi.org/10.5334/jors.329</a></p>
-<p>Cooke SJ, Soroye P, Brooks JL, Clarke J, Jeanson AL, Berberi A, Piczak ML, Reid CH, Desforges JE, Guay JD, Drake AK, Jardine AM, Ethier JP, Keefe HE, Medd AM, <strong>Edwards BPM</strong>, et al. (2021). Ten considerations for conservation policy makers for the post-COVID-19 transition. <em>Environmental Reviews</em> 29(999). <a href="https://doi.org/10.1139/er-2021-0014" class="uri">https://doi.org/10.1139/er-2021-0014</a></p>
-<p>Smith AC, <strong>Edwards BPM</strong>. (2021). North American Breeding Bird Survey status and trend estimates to inform a wide-range of conservation needs, using a flexible Bayesian hierarchical generalized additive model. <em>Ornithological Applications</em> 123(1). <a href="https://doi.org/10.1093/ornithapp/duaa065" class="uri">https://doi.org/10.1093/ornithapp/duaa065</a></p>
-<p>Gillis D, <strong>Edwards BPM</strong>. (2019). The utility of joinpoint regression for estimating population parameters given changes in population structure. <em>Heliyon</em> 5(11), e02515. <a href="https://doi.org/10.1016/j.heliyon.2019.e02515" class="uri">https://doi.org/10.1016/j.heliyon.2019.e02515</a></p>
-<p>Rose D, <strong>Edwards BPM</strong>, Kett R, Yodzis M, Angevaare J, Gillis D. (2017). Exploring Anthropogenic Activities and Management Decisions Using a Novel Environmental Agent Based Model. <em>2017 IEEE Canada International Humanitarian Technology Conference (IHTC)</em>, 85-89. <a href="https://doi.org/10.1109/IHTC.2017.8058206" class="uri">https://doi.org/10.1109/IHTC.2017.8058206</a></p>
-<p><a href="https://scholar.google.ca/citations?user=rFIqtwgAAAAJ&amp;hl=en">Google Scholar Profile</a></p>
-<div id="invited-symposia" class="section level2">
-<h2>Invited Symposia</h2>
-<p><strong>Edwards BPM</strong>, Smith AC. (August 2020). Open, accessible, and customizable analysis of North American Breeding Bird Survey data using the R package bbsBayes. <em>7th North American Ornithological Conference</em> (Symposium: Back to the future of the breeding bird survey), Virtual Conference.</p>
-<p><strong>Edwards BPM</strong>, Smith AC, Hudson M-AR, Francis CM, Pardieck KL, Ziolkowski Jr DJ. (August 2019). bbsBayes: An R Package for Hierarchical Bayesian Modelling of Breeding Bird Survey Data. <em>Society of Canadian Ornithologists Annual Meeting</em> (Symposium: R for Ornithologists: Perspectives from UseRs to programmeRs), Quebec City, QC.</p>
+<div id="peer-reviewed-publications" class="section level2">
+<h2>PEER-REVIEWED PUBLICATIONS</h2>
+<p><a href="https://scholar.google.ca/citations?user=CrX15nAAAAAJ&amp;hl=en">Google Scholar Profile</a><br />
+<a href="https://www.researchgate.net/profile/Allison-Binley">Research Gate</a></p>
+<p><strong>Binley, A.D.</strong>*, Proctor, C.A.*, Pither, R., Davis, S.A., Bennett, J.R. 2021. <a href="https://doi.org/10.1111/csp2.376">The unrealized potential of community science to support research on the resilience of protected areas.</a> Conservation Science and Practice, e376. *authors contributed equally</p>
+<p>Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., <strong>Binley, A.D.</strong>, Francis, C.M., Avery-Gomm, S., et al. 2021. <a href="https://doi.org/10.1016/j.biocon.2021.108983">Key information needs to move from knowledge to action for biodiversity conservation in Canada.</a> Conservation Biology, 108983.</p>
+<p>Buxton, R.T., Bergman, J.N., Lin, H.Y., <strong>Binley, A.D.</strong>, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett, J.R., 2020. <a href="10.1111/cobi.13652">Three lessons conservation science can learn from the COVID-19 pandemic</a> Conservation Biology.</p>
+<p>Butt, N.B., Rosner-Katz, H., <strong>Binley, A.D.</strong>, Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. <a href="https://doi.org/10.3389/fevo.2020.00223">Threats, costs and probability of success: informing conservation choices. Frontiers in Ecology and Evolution.</a> 8:1-8.</p>
+<p>Bergman*, J.N., <strong>Binley, A.D.</strong>*, Murphy*, R.E., Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*, J.G., Fahrig, L., Bennett, J.R. 2020. <a href="https://doi.org/10.1139/facets-2019-0050">How to rescue Ontario’s Endangered Species Act: A Biologist’s perspective.</a> FACETS. 5(1):423-431. *authors contributed equally</p>
+<p>Gordon, E.R., Butt, N., Rosner-Katz, H., <strong>Binley, A.D.</strong>, and Bennett, J.R., 2019. <a href="https://doi.org/10.1111/cobi.13382">Relative costs of conserving threatened species across taxonomic groups.</a> Conservation Biology, 34(1), 276-281.</p>
+<p>Bergman, J.N., Bennett, J.R., <strong>Binley, A.D.</strong>, Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and Madliger, C.L., 2019. <a href="https://doi.org/10.1016/j.biocon.2019.108242">Scaling from individual physiological measures to population-level demographic change: Case studies and future directions for conservation management.</a> Biological Conservation, 238, 108242.</p>
 </div>
-<div id="select-conference-presentations" class="section level2">
-<h2>Select Conference Presentations</h2>
-<p><strong>Edwards BPM</strong>, Smith AC, NA-POPS Team. (August 2021). Point count offsets for population sizes of North American landbirds. <em>American Ornithology 2021</em>, Virtual. (Paper)</p>
-<p><strong>Edwards BPM</strong>, Jacobs S, Gillis D. (June 2019). Risk Assessment of Great Lakes piping plovers using eABM: An R package to run Environment Agent-based Models. <em>American Ornithology 2019</em>, Anchorage, AK. (Paper)</p>
-<p><strong>Edwards BPM</strong>, Jacobs S, Gillis D. (August 2018). Assessing the effects of beach raking on piping plover reproductive success using an environmental agent-based model. <em>42nd Annual Waterbirds Society Meeting</em>, Vancouver, BC. (Paper)</p>
-<p><strong>Edwards BPM</strong>, Smith AC. (August 2018). Improved population trajectories for North American swallows, swifts, and nightjars with a hierarchical Bayesian GAM. <em>International Ornithological Congress 2018</em>, Vancouver, BC. (Poster)</p>
-<p><strong>Edwards BPM</strong>, Gillis D. (August 2017). Modelling habitat loss in Piping Plovers using an environmental agent-based model. <em>American Ornithology 2017</em>, Lansing, MI. (Poster)</p>
-<p>Rose D, <strong>Edwards BPM</strong>, Kett R, Yodzis M, Angevaare J, Gillis D. (July 2017). Exploring Anthropogenic Activities and Management Decisions Using a Novel Environmental Agent Based Model. <em>IEEE International Humanitarian Technology Conference</em>, Guelph, ON. (Paper)</p>
+<div id="publications-in-review" class="section level2">
+<h2>PUBLICATIONS IN REVIEW</h2>
+<p>Schuster, R., Buxton, R., Hanson, J.O., <strong>Binley, A.D.</strong>, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Science (submitted 23/09/21) ID: abm5093</p>
+<p>Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., <strong>Binley, A.D.</strong>, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The perils and promise of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082</p>
+<p>Lin, H., <strong>Binley, A.D.</strong>, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. In review in Biological Conservation.</p>
+<p>Edwards, B.P.M., <strong>Binley, A.D.</strong>, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. In review in Canadian Field-Naturalist. ID: 2877</p>
+</div>
+<div id="non-peer-reviewed-publications-and-reports" class="section level2">
+<h2>NON-PEER REVIEWED PUBLICATIONS AND REPORTS</h2>
+<p><strong>Binley, A.D.</strong> and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.</p>
+<p>Bergman<em>, JN, Binley</em>, AD, Murphy<em>, RE, Proctor</em>, CA, Nguyen<em>, AT, Urness</em>, ES, Vala<em>, MA, Vincent</em>, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally</p>
 </div>
 
 
@@ -382,7 +332,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

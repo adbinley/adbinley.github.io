@@ -1,26 +1,28 @@
-name: "Brandon Edwards"                                # CHANGE HERE 
+name: "Allison D. Binley"                                # CHANGE HERE 
 output_dir: "."
 navbar:
-  title: "Brandon Edwards"                             # CHANGE HERE 
+  title: "Allison D. Binley"                             # CHANGE HERE 
   type: default
   left:
     - text: "About"
-      icon: fa-user 
+    #  icon: fa-user 
       href: about.html
-    - text: "Software"
-      icon: fa-code
-      href: software.html
+    - text: "CV"
+   #   icon: fa-code
+      href: CV.html
     - text: "Publications"
-      icon: fa-pencil
+   #   icon: fa-pencil
       href: publications.html
   right:
     - icon: fa-github
-      href: https://github.com/BrandonEdwards      # CHANGE HERE 
-    - icon: fa-linkedin
-      href: https://www.linkedin.com/in/brandonpmedwards/
-#    - icon: fa-twitter
- #     href: https://twitter.com/bedwards144
+      href: https://github.com/adbinley      # CHANGE HERE 
+    - icon: fa-twitter
+      href: https://twitter.com/AllisonBinley
+ #   - icon: fa-linkedin
+ #     href: https://www.linkedin.com/in/brandonpmedwards/
+ #   - icon: fa-twitter
+ #     href: https://twitter.com/AllisonBinley
 output:
   html_document:
-    theme: cosmo
+    theme: yeti
     highlight: textmate
