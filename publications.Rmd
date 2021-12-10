@@ -41,4 +41,4 @@ Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A hi
 
 **Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
 
-Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally
+Bergman\*, J.N., **Binley\*, A.D.**, Murphy\*, R.E., Proctor\*, C.A., Nguyen\*, A.T., Urness\*, E.S., Vala\*, M.A., Vincent\*, J.G., Fahrig, L., Bennett, J.R. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally

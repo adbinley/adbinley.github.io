@@ -4,5 +4,6 @@ output:
   html_document:
     includes:
       in_header: index-cover.html
+      after_body: footer.html
 ---
 I am a PhD candidate with the [Bennett Lab](https://carleton.ca/bennett-lab/) at Carleton University. My research focuses on decision science and avian conservation, particularly making use of community science data. [More about me.](about.html)

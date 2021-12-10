@@ -20,8 +20,9 @@ navbar:
       href: https://twitter.com/AllisonBinley
  #   - icon: fa-linkedin
  #     href: https://www.linkedin.com/in/brandonpmedwards/
- #   - icon: fa-twitter
- #     href: https://twitter.com/AllisonBinley
+#    - icon: "img/ebird.png"
+    - text: eBird
+      href: https://ebird.org/profile/ODQyMjkx/world
 output:
   html_document:
     theme: yeti
