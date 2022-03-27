@@ -7,3 +7,17 @@ output:
       after_body: footer.html
 ---
 I am a PhD candidate with the [Bennett Lab](https://carleton.ca/bennett-lab/) at Carleton University. My research focuses on decision science and avian conservation, particularly making use of community science data. [More about me.](about.html)
+
+
+
+
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+
+
+
+
+**Look for me at these international conferences this year:**  
+• [International Statistical Ecology Conference (ISEC)](https://www.isec2022.org/) - *Species traits determine the influence of anthropogenically-modified habitats on forest bird occurrence throughout the annual cycle  (in person oral presentation)*  
+• [Ecological Society of America - Canadian Society for Ecology and Evolution Joint Meeting (ESA-CSEE)](https://www.esa.org/montreal2022/) - *Minimizing Data Waste: Conservation in the Big Data Era Symposium. Redistributing conservation resources from monitoring to action using community science (Symposium organizer and invited speaker)*  

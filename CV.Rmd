@@ -35,6 +35,8 @@ July 2013 – July 2014
 
 ## AWARDS & GRANTS
 
+*2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;David and Rachel Epstein Scholarship ($1000)
+
 *2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mitacs [Globalink Award](https://www.mitacs.ca/en/programs/globalink) ($6000)  
 
 *2021-2024*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NSERC [Canada Graduate Scholarship](https://www.nserc-crsng.gc.ca/students-etudiants/pg-cs/cgsd-bescd_eng.asp) – Doctoral ($105000)  
@@ -80,6 +82,10 @@ July 2013 – July 2014
 
 [Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)
 
+Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. Accepted in Biological Conservation. 
+
+Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. Accepted in Canadian Field-Naturalist. ID: 2877
+
 **Binley, A.D.**\*, Proctor, C.A.\*, Pither, R., Davis, S.A., Bennett, J.R. 2021. [The unrealized potential of community science to support research on the resilience of protected areas.](https://doi.org/10.1111/csp2.376) Conservation Science and Practice, e376. \*authors contributed equally
 
 Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., **Binley, A.D.**, Francis, C.M., Avery-Gomm, S., et al. 2021. [Key information needs to move from knowledge to action for biodiversity conservation in Canada.](https://doi.org/10.1016/j.biocon.2021.108983) Conservation Biology, 108983.
@@ -97,28 +103,32 @@ Bergman, J.N., Bennett, J.R., **Binley, A.D.**, Cooke, S.J., Fyson, V., Hlina, B
 
 ## PUBLICATIONS IN REVIEW
 
-Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Science (submitted 23/09/21) ID: abm5093
+**Binley, A.D.**, Vincent,J.G., Rytwinski, T., Urness, E., Proctor, C., Davis, S., Soroye, P., and Bennett, J.R.  How well do we make use of existing data when conducting peer-reviewed research on biodiversity? A case study looking at community science. In review in Methods in Ecology and Evolution ID: MEE-22-03-193
 
-Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The perils and promise of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
+Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The risks and rewards of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
 
-Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. In review in Biological Conservation. 
-
-Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. In review in Canadian Field-Naturalist. ID: 2877
-
+Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Conservation Letters ID: CONL-22-0088
 
 ## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
 
 **Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
 
-Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally
+Bergman\*, JN, **Binley\*, AD**, Murphy\*, RE, Proctor\*, CA, Nguyen\*, AT, Urness\*, ES, Vala\*, MA, Vincent\*, JG, Fahrig, L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. \*authors contributed equally
 
 ## PROFESSIONAL HISTORY
+
+**Forest Invader Management Workshop**  
+*Workshop hosted by Carleton University / McGill University, Jan 2022*  
+•	Facilitator for workshop on invasive species management
+•	Provided discussion prompts, recorded meeting notes, and summarized break-out meetings
+•	Helped revise and finalize themes of the workshop
+•	Ongoing collaborator on the publication in progress
 
 **Contract Instructor**  
 *Carleton University, Sep – Dec 2021*  
 •	Instructor for second year undergraduate environmental science course, Environmental Methods and Analysis  
 •	Provided course content both in person and online  
-
+• Teaching Evaluation: 4.79/5
 
 **Social Media Coordinator**	
 *Geomatics and Landscape Ecology Lab [(GLEL)](https://twitter.com/glelcarleton), May 2019 – present*  
@@ -136,12 +146,12 @@ Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, 
 •	Supported other lab projects by performing data extraction and entry, assisting with fieldwork, providing detailed manuscript revisions and feedback, designing and performing literature reviews, and organizing and analyzing survey data  
 
 **Friday Discussion Coordinator**	 
-*Geomatics and Landscape Ecology Lab (GLEL), Dec 2018 – September 2020*
+*Geomatics and Landscape Ecology Lab (GLEL), Dec 2018 – September 2020*  
 •	Coordinated and facilitated weekly meetings with members of government, the community, and academia to discuss current issues in ecology, conservation and policy  
 •	Provided feedback on manuscripts, planned seminars and workshops, and orchestrated comments on government policy and legislation  
 
-**Research Scientist – contract**	
-*Environment and Climate Change Canada, Jan – Apr 2020*
+**Research Scientist – Sole-Source Contract**	 
+*Environment and Climate Change Canada, Jan – Apr 2020*  
 •	Designed and implemented a literature review on how community science can contribute to the design of resilient protected area networks through literature review and Bayesian topic modeling  
 •	Produced a deliverable within 4 months and successfully [published](https://doi.org/10.1111/csp2.376) within a year  
 
@@ -154,7 +164,7 @@ Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, 
 •	Disseminated education and outreach materials to the public   
 
 **Research Intern [(RISE scholarship)](https://www.daad.org/en/find-funding/undergraduate-opportunities/research-internships-in-science-and-engineering-rise/)**  
-*Marine Science Centre (Germany), May – Aug 2015*
+*Marine Science Centre (Germany), May – Aug 2015*  
 •	Awarded a highly competitive international scholarship to collaborate on multiple research projects investigating cognitive and sensory ecology in marine pinnipeds  
 •	Conducted experiments, animal training and welfare assessments, and guided scientific report writing while living on a research vessel in the Baltic Sea  
 
@@ -173,9 +183,9 @@ Bergman*, JN, Binley*, AD, Murphy*, RE, Proctor*, CA, Nguyen*, AT, Urness*, ES, 
 ## VOLUNTEER EXPERIENCE
 
 **Identifying Canada’s Information Needs – Meeting Biodiversity Conservation Targets**  
-*Workshop hosted by Carleton University / Environment and Climate Change Canada, Jan 2020*
+*Workshop hosted by Carleton University / Environment and Climate Change Canada, Jan 2020*  
 •	Contributed significantly to the design of surveys collecting data on biodiversity information needs according to experts  
-•	Collated information from round-table discussions between researchers from academic institutions, government, non-governmental organizations and Indigenous Knowledge holders  
+•	Collated information from round-table discussions between researchers from academic institutions, government, non-governmental organizations and Indigenous Knowledge holders
 •	Delivered results of discussions and collaborated with coordinators to summarize data from the workshop  
 •	Contributed to writing and revising the final [publication](https://doi.org/10.1016/j.biocon.2021.108983) as a coauthor 
 

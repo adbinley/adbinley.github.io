@@ -11,6 +11,10 @@ output:
 [Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)  
 [Research Gate](https://www.researchgate.net/profile/Allison-Binley)
 
+Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. Accepted in Biological Conservation. 
+
+Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. Accepted in Canadian Field-Naturalist. ID: 2877
+
 **Binley, A.D.**\*, Proctor, C.A.\*, Pither, R., Davis, S.A., Bennett, J.R. 2021. [The unrealized potential of community science to support research on the resilience of protected areas.](https://doi.org/10.1111/csp2.376) Conservation Science and Practice, e376. \*authors contributed equally
 
 Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., **Binley, A.D.**, Francis, C.M., Avery-Gomm, S., et al. 2021. [Key information needs to move from knowledge to action for biodiversity conservation in Canada.](https://doi.org/10.1016/j.biocon.2021.108983) Conservation Biology, 108983.
@@ -28,14 +32,11 @@ Bergman, J.N., Bennett, J.R., **Binley, A.D.**, Cooke, S.J., Fyson, V., Hlina, B
 
 ## PUBLICATIONS IN REVIEW
 
-Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Science (submitted 23/09/21) ID: abm5093
+**Binley, A.D.**, Vincent,J.G., Rytwinski, T., Urness, E., Proctor, C., Davis, S., Soroye, P., and Bennett, J.R.  How well do we make use of existing data when conducting peer-reviewed research on biodiversity? A case study looking at community science. In review in Methods in Ecology and Evolution ID: MEE-22-03-193
 
-Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The perils and promise of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
+Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The risks and rewards of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
 
-Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. In review in Biological Conservation. 
-
-Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. In review in Canadian Field-Naturalist. ID: 2877
-
+Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Conservation Letters ID: CONL-22-0088
 
 ## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
 
