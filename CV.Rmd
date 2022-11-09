@@ -11,7 +11,7 @@ allisonbinley@cmail.carleton.ca
 
 ## SUMMARY
 
-I am a PhD candidate at Carleton University specializing in quantitative ecological conservation. My work focuses on integrating existing data, and in particular community science data, to conduct broad-scale conservation research. I have a strong background in spatial statistics, decision science, data integration, literature review and big data analysis. My network of collaborators includes scientists from government (Environment and Climate Change Canada, Canadian Wildlife Service), non-governmental organizations (The Nature Conservancy), and other academic institutions (The Cornell Lab of Ornithology, The University of Queensland, The University of British Columbia, and the University of Amsterdam).   
+I am a PhD candidate at Carleton University specializing in quantitative ecological conservation. My work focuses on using existing data, and in particular community science data, to conduct broad-scale conservation research. I have a strong background in spatial statistics, decision science, literature review and big data analysis. My network of collaborators includes scientists from government (Environment and Climate Change Canada, Canadian Wildlife Service), non-governmental organizations (The Nature Conservancy and Nature Conservancy Canada), and other academic institutions (The Cornell Lab of Ornithology, The University of Queensland, and The University of British Columbia).    
 
 ## EDUCATION
 
@@ -24,6 +24,8 @@ I am a PhD candidate at Carleton University specializing in quantitative ecologi
 
 Advisors: Joseph Bennett (CU), Scott Wilson (ECCC/UBC), Richard Schuster (NCC/CU)
 
+*Visiting Researcher: September 2022 - December 2022, Sustainable Landscapes Group, Centre for Biodiversity and Conservation Science, University of Queensland, QLD, Australia*
+
 **Bachelor of Science with distinction, Biology**   
 November 2015  
 *University of Victoria, Victoria BC*    
@@ -34,6 +36,10 @@ July 2013 – July 2014
 
 
 ## AWARDS & GRANTS
+
+*2022*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Smith Foreign Study Supplement ($6000)
+
+*2022*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSEE Excellence in Doctoral Research Award ($1700)
 
 *2021*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;David and Rachel Epstein Scholarship ($1000)
 
@@ -82,9 +88,11 @@ July 2013 – July 2014
 
 [Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)
 
-Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. Accepted in Biological Conservation. 
+Soroye, P., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Edwards, B.P.M., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. 2022. [The risks and rewards of community science for threatened species monitoring](https://doi.org/10.1111/csp2.12788). Conservation Science and Practice, e12788.
 
-Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. Accepted in Canadian Field-Naturalist. ID: 2877
+Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. [Using community science data to help identify threatened species occurrences outside of known ranges](https://doi.org/10.1016/j.biocon.2022.109523). Biological Conservation, 268: 109523. 
+
+Edwards, B.P.M., **Binley, A.D.**, English, W.B., Hudgins, E.J., Snow, S.S. [A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song](https://doi.org/10.22621/cfn.v136i1.2877). Canadian Field-Naturalist, 136.
 
 **Binley, A.D.**\*, Proctor, C.A.\*, Pither, R., Davis, S.A., Bennett, J.R. 2021. [The unrealized potential of community science to support research on the resilience of protected areas.](https://doi.org/10.1111/csp2.376) Conservation Science and Practice, e376. \*authors contributed equally
 
@@ -103,13 +111,22 @@ Bergman, J.N., Bennett, J.R., **Binley, A.D.**, Cooke, S.J., Fyson, V., Hlina, B
 
 ## PUBLICATIONS IN REVIEW
 
-**Binley, A.D.**, Vincent,J.G., Rytwinski, T., Urness, E., Proctor, C., Davis, S., Soroye, P., and Bennett, J.R.  How well do we make use of existing data when conducting peer-reviewed research on biodiversity? A case study looking at community science. In review in Methods in Ecology and Evolution ID: MEE-22-03-193
+Schuster, R., Buxton, R., Hanson, J.O., Binley, A.D., Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. In review in Conservation Biology (submitted 28/04/2022), ID: 22-265
 
-Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The risks and rewards of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082
+Binley, A.D., Wilson, S., Schuster, R., Rodewald, A.D., Fink, D., La Sorte, F., Zuckerberg, B., and Bennett, J.R. Species traits drive responses of forest birds to agriculturally-modified habitats throughout the annual cycle. In review in Ecography (submitted 26/05/2022), ID ECOG-06457
 
-Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Conservation Letters ID: CONL-22-0088
+**Binley, A.D.**, Vincent, J.G., Rytwinski, T., Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. [Patterns of community science data use in peer-reviewed research on biodiversity](https://biorxiv.org/cgi/content/short/2022.10.17.512636v1). In review in Biological Conservation (submitted 31/08/2022) ID: BIOCON-D-22-01017
+
+**Binley, A.D.**, Vincent, J.G., Rytwinski, T., Soroye, P., Bennett, J.R. Making the Most of Existing Data in Conservation Research. In review in Perspectives in Ecology and Conservation (submitted 31/08/2022) ID: PECON-D-22-00177
+
+Edwards, B.P.M., **Binley, A.D.** Evidence for a possible range expansion of White-fronted Bee-eater into Western and Eastern Cape, South Africa. In review in Bird Conservation International.
+
+Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J., Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V., **Binley, A.D.**, … Braga PHP. [Not Just for Programmers: How Github Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution](https://doi.org/10.31222/osf.io/x3p2q). In review in Methods in Ecology and Evolution 
+
 
 ## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
+
+Rhodes, J., Williams, B., **Binley, A.D.**, Chung, Y.F., Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N., Chen, S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth and Environmental Sciences, The University of Queensland). 2022. Feedback Submission on a Biodiversity Market.
 
 **Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
 
@@ -238,7 +255,7 @@ Bergman\*, JN, **Binley\*, AD**, Murphy\*, RE, Proctor\*, CA, Nguyen\*, AT, Urne
 
 **S. Davis**, Carleton University. Dean’s Summer Research Internship Undergraduate Student, Research Assistant. Potential for citizen science to fill gaps in endangered species conservation; The unrealized potential of citizen science to support research on the resilience of protected areas *(2019 - 2020)*
 
-**V. Greenough**, Carleton University. ACT to employ program Undergraduate Student. Potential for citizen science to fill gaps in endangered species conservation *(Fall 2019)*
+**V. Greenough**, Carleton University. Undergraduate Research Assistant. Potential for citizen science to fill gaps in endangered species conservation *(Fall 2019)*
 
 ## TEACHING EXPERIENCE
 
