@@ -13,6 +13,7 @@
 
 <title>Publications</title>
 
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src="img/leye3.jpg" width="100%" align="center"></div>
 
 <style type="text/css">
@@ -62,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,28 +287,182 @@ $(document).ready(function () {
 
 <div id="peer-reviewed-publications" class="section level2">
 <h2>PEER-REVIEWED PUBLICATIONS</h2>
-<p><a href="https://scholar.google.ca/citations?user=CrX15nAAAAAJ&amp;hl=en">Google Scholar Profile</a><br />
-<a href="https://www.researchgate.net/profile/Allison-Binley">Research Gate</a></p>
-<p>Lin, H., <strong>Binley, A.D.</strong>, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. Using community science data to help identify threatened species occurrences outside of known ranges. Accepted in Biological Conservation.</p>
-<p>Edwards, B.P.M., <strong>Binley, A.D.</strong>, English, W.B., Hudgins, E.J., Snow, S.S. A highly anomalous Red-winged Blackbird (Agelaius phoeniceus) song. Accepted in Canadian Field-Naturalist. ID: 2877</p>
-<p><strong>Binley, A.D.</strong>*, Proctor, C.A.*, Pither, R., Davis, S.A., Bennett, J.R. 2021. <a href="https://doi.org/10.1111/csp2.376">The unrealized potential of community science to support research on the resilience of protected areas.</a> Conservation Science and Practice, e376. *authors contributed equally</p>
-<p>Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C., Cooke, S.J., Nyoboer, E.A., <strong>Binley, A.D.</strong>, Francis, C.M., Avery-Gomm, S., et al. 2021. <a href="https://doi.org/10.1016/j.biocon.2021.108983">Key information needs to move from knowledge to action for biodiversity conservation in Canada.</a> Conservation Biology, 108983.</p>
-<p>Buxton, R.T., Bergman, J.N., Lin, H.Y., <strong>Binley, A.D.</strong>, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett, J.R., 2020. <a href="10.1111/cobi.13652">Three lessons conservation science can learn from the COVID-19 pandemic</a> Conservation Biology.</p>
-<p>Butt, N.B., Rosner-Katz, H., <strong>Binley, A.D.</strong>, Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. <a href="https://doi.org/10.3389/fevo.2020.00223">Threats, costs and probability of success: informing conservation choices. Frontiers in Ecology and Evolution.</a> 8:1-8.</p>
-<p>Bergman*, J.N., <strong>Binley, A.D.</strong>*, Murphy*, R.E., Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*, J.G., Fahrig, L., Bennett, J.R. 2020. <a href="https://doi.org/10.1139/facets-2019-0050">How to rescue Ontario’s Endangered Species Act: A Biologist’s perspective.</a> FACETS. 5(1):423-431. *authors contributed equally</p>
-<p>Gordon, E.R., Butt, N., Rosner-Katz, H., <strong>Binley, A.D.</strong>, and Bennett, J.R., 2019. <a href="https://doi.org/10.1111/cobi.13382">Relative costs of conserving threatened species across taxonomic groups.</a> Conservation Biology, 34(1), 276-281.</p>
-<p>Bergman, J.N., Bennett, J.R., <strong>Binley, A.D.</strong>, Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and Madliger, C.L., 2019. <a href="https://doi.org/10.1016/j.biocon.2019.108242">Scaling from individual physiological measures to population-level demographic change: Case studies and future directions for conservation management.</a> Biological Conservation, 238, 108242.</p>
+<p><a
+href="https://scholar.google.ca/citations?user=CrX15nAAAAAJ&amp;hl=en">Google
+Scholar Profile</a><br />
+<a href="https://www.researchgate.net/profile/Allison-Binley">Research
+Gate</a></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Soroye, P., Bennett, J.R. Making the Most of Existing Data in
+Conservation Research. In press in Perspectives in Ecology and
+Conservation</p></li>
+<li><p>Smith, A.C., <strong>Binley, A.D.</strong>, Daly, L., Edwards,
+P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L.,
+Smith, P.A. Spatially explicit Bayesian hierarchical models for avian
+population status and trends. In press in Ornithological
+Applications.</p></li>
+<li><p><strong>Binley, A.D.</strong>, Bennett, J.R. ,Schuster, R.,
+Rodewald, A.D., Fink, D., La Sorte, F., Zuckerberg, B., and Wilson, S.
+2023. <a href="https://doi.org/10.1111/ecog.06457">Species traits drive
+responses of forest birds to agriculturally-modified habitats throughout
+the annual cycle</a>. Ecography 2023(9), p.e06457<br />
+</p></li>
+<li><p><strong>Binley, A.D.</strong>, and Bennett, J.R. 2023. <a
+href="https://doi.org/10.1111/2041-210X.14110">The Data Double
+Standard</a>. Methods in Ecology and Evolution 14(6),
+1389-1387.</p></li>
+<li><p>Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J.,
+Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V.,
+<strong>Binley, A.D.</strong>, … Braga PHP. 2023. <a
+href="https://doi.org/10.31222/osf.io/x3p2q">Not Just for Programmers:
+How Github Can Accelerate Collaborative and Reproducible Research in
+Ecology and Evolution</a>. Methods in Ecology and Evolution 14(6):
+1364-1380.</p></li>
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. 2023
+<a href="https://doi.org/10.1016/j.biocon.2023">Patterns of community
+science data use in peer-reviewed research on biodiversity</a>.
+Biological Conservation, 280, 109985</p></li>
+<li><p><strong>Binley, A.D.</strong>, Edwards, B.P., Dansereau, G.,
+Knight, E.C. and Momeni-Dehaghi, I., 2023. <a
+href="https://doi.org/10.1002/bes2.2056">Minimizing Data Waste:
+Conservation in the Big Data Era</a>. The Bulletin of the Ecological
+Society of America, e2056.</p></li>
+<li><p>Schuster, R., Buxton, R., Hanson, J.O., <strong>Binley,
+A.D.</strong>, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H.,
+Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. 2023. <a
+href="https://doi.org/10.1111/cobi.14048">Protected Area Planning to
+Conserve Biodiversity in an Uncertain Future</a>. Conservation Biology,
+e14048.</p></li>
+<li><p>Soroye, P., Buxton, R.T., Ethier, J.P., Frempong-Manso, A.,
+Edwards, B.P.M., Keefe, H., Berberi, A., Roach-Krajewski, M.,
+<strong>Binley, A.D.</strong>, Vincent, J.G., Cooke, S.J. and Bennett,
+J.R. 2022. <a href="https://doi.org/10.1111/csp2.12788">The risks and
+rewards of community science for threatened species monitoring</a>.
+Conservation Science and Practice, e12788.</p></li>
+<li><p>Lin, H., <strong>Binley, A.D.</strong>, Schuster, R., Rodewald,
+A.D., Buxton, R., and Bennett, J.R. 2022. <a
+href="https://doi.org/10.1016/j.biocon.2022.109523">Using community
+science data to help identify threatened species occurrences outside of
+known ranges</a>. Biological Conservation, 268: 109523.</p></li>
+<li><p>Edwards, B.P.M., <strong>Binley, A.D.</strong>, English, W.B.,
+Hudgins, E.J., Snow, S.S. 2022. <a
+href="https://doi.org/10.22621/cfn.v136i1.2877">A highly anomalous
+Red-winged Blackbird (Agelaius phoeniceus) song</a>. Canadian
+Field-Naturalist, 136.</p></li>
+<li><p><strong>Binley, A.D.</strong>*, Proctor, C.A.*, Pither, R.,
+Davis, S.A., Bennett, J.R. 2021. <a
+href="https://doi.org/10.1111/csp2.376">The unrealized potential of
+community science to support research on the resilience of protected
+areas.</a> Conservation Science and Practice, e376. *authors contributed
+equally</p></li>
+<li><p>Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman,
+C., Cooke, S.J., Nyoboer, E.A., <strong>Binley, A.D.</strong>, Francis,
+C.M., Avery-Gomm, S., et al. 2021. <a
+href="https://doi.org/10.1016/j.biocon.2021.108983">Key information
+needs to move from knowledge to action for biodiversity conservation in
+Canada.</a> Conservation Biology, 108983.</p></li>
+<li><p>Buxton, R.T., Bergman, J.N., Lin, H.Y., <strong>Binley,
+A.D.</strong>, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett,
+J.R., 2020. <a href="10.1111/cobi.13652">Three lessons conservation
+science can learn from the COVID-19 pandemic</a> Conservation
+Biology.</p></li>
+<li><p>Butt, N.B., Rosner-Katz, H., <strong>Binley, A.D.</strong>,
+Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. <a
+href="https://doi.org/10.3389/fevo.2020.00223">Threats, costs and
+probability of success: informing conservation choices. Frontiers in
+Ecology and Evolution.</a> 8:1-8.</p></li>
+<li><p>Bergman*, J.N., <strong>Binley, A.D.</strong>*, Murphy*, R.E.,
+Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*,
+J.G., Fahrig, L., Bennett, J.R. 2020. <a
+href="https://doi.org/10.1139/facets-2019-0050">How to rescue Ontario’s
+Endangered Species Act: A Biologist’s perspective.</a> FACETS.
+5(1):423-431. *authors contributed equally</p></li>
+<li><p>Gordon, E.R., Butt, N., Rosner-Katz, H., <strong>Binley,
+A.D.</strong>, and Bennett, J.R., 2019. <a
+href="https://doi.org/10.1111/cobi.13382">Relative costs of conserving
+threatened species across taxonomic groups.</a> Conservation Biology,
+34(1), 276-281.</p></li>
+<li><p>Bergman, J.N., Bennett, J.R., <strong>Binley, A.D.</strong>,
+Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and
+Madliger, C.L., 2019. <a
+href="https://doi.org/10.1016/j.biocon.2019.108242">Scaling from
+individual physiological measures to population-level demographic
+change: Case studies and future directions for conservation
+management.</a> Biological Conservation, 238, 108242.</p></li>
+</ol>
 </div>
 <div id="publications-in-review" class="section level2">
 <h2>PUBLICATIONS IN REVIEW</h2>
-<p><strong>Binley, A.D.</strong>, Vincent,J.G., Rytwinski, T., Urness, E., Proctor, C., Davis, S., Soroye, P., and Bennett, J.R. How well do we make use of existing data when conducting peer-reviewed research on biodiversity? A case study looking at community science. In review in Methods in Ecology and Evolution ID: MEE-22-03-193</p>
-<p>Soroye, P., Edwards, B.P.M., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Keefe, H., Berberi, A., Roach-Krajewski, M., <strong>Binley, A.D.</strong>, Vincent, J.G., Cooke, S.J. and Bennett, J.R. The risks and rewards of community science for threatened species monitoring. In review in Conservation Science and Practice ID: CONL-21-0082</p>
-<p>Schuster, R., Buxton, R., Hanson, J.O., <strong>Binley, A.D.</strong>, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. Biodiversity conservation in an uncertain world. Submitted to Conservation Letters ID: CONL-22-0088</p>
+<ol style="list-style-type: decimal">
+<li><p>Bennett, J.R., Edwards, B.P.M., Bergman, J., <strong>Binley,
+A.D.</strong>, Buxton, R., Hanna, D., Hanson, J., Hudgins, E., Karimi,
+S., Raymond, C., Robichaud, C., Rytwinski, T. How ignoring detection
+probability hurts biodiversity conservation. In review in Frontiers in
+Ecology and the Environment (submitted 16/04/2023) ID:
+FEE23-0086</p></li>
+<li><p>Edwards, B.P.M., <strong>Binley, A.D</strong>. Evidence for a
+possible range expansion of White-fronted Bee-eater into Western and
+Eastern Cape, South Africa. In review in Afrotropical Bird Biology:
+Journal of the Natural History of African Birds (submitted 31/05/2023)
+ID: 1373</p></li>
+<li><p>Holden, M., Akinlotan, M., <strong>Binley, A.D.</strong>, Cho,
+F., Helmstedt, K., Chades, I. Why shouldn’t I collect more data?
+Reconciling disagreements between intuition and value of Information
+analyses. In review in Methods in Ecology and Evolution (submitted
+26/09/2023) ID: MEE-23-09-554</p></li>
+<li><p><strong>Binley, A.D.</strong>, Hanson, J.O., Robsinson, O.J.,
+Golet, G.H., Bennett, J.R. Quantifying the Value of Community Science
+Data for Conservation Decision-making. In review in Nature
+Sustainability (submitted 09/11/2023) ID: NATSUSTAIN-23114277</p></li>
+</ol>
 </div>
-<div id="non-peer-reviewed-publications-and-reports" class="section level2">
+<div id="preprints" class="section level2">
+<h2>PREPRINTS</h2>
+<ol style="list-style-type: decimal">
+<li><p>Smith, A.C., Aponte, V., Hudson, M.R., English, W.B., Jefferys,
+K., <strong>Binley, A.D.</strong>, Robinson, B., Donkersteeg, C.,
+Edwards, B.P.M., Daly, L., Cox, A.R., Roy, C. <a
+href="https://doi.org/10.32942/X2SP5J">Tracking the spatial patterns and
+the drivers of population trends on individual Breeding Bird Survey
+routes using spatially explicit models and route-level
+covariates.</a></p></li>
+<li><p>Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J.,
+Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V.,
+<strong>Binley, A.D.</strong>, … Braga PHP. <a
+href="https://doi.org/10.31222/osf.io/x3p2q">Not Just for Programmers:
+How Github Can Accelerate Collaborative and Reproducible Research in
+Ecology and Evolution.</a></p></li>
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. <a
+href="https://biorxiv.org/cgi/content/short/2022.10.17.512636v1">Patterns
+of community science data use in peer-reviewed research on
+biodiversity.</a></p></li>
+<li><p>Smith, A.C., <strong>Binley, A.D.</strong>, Daly, L., Edwards,
+P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L.,
+Smith, P.A. <a href="https://doi.org/10.32942/X2088D">Spatially explicit
+Bayesian hierarchical models for avian population status and
+trends.</a></p></li>
+</ol>
+</div>
+<div id="non-peer-reviewed-publications-and-reports"
+class="section level2">
 <h2>NON-PEER REVIEWED PUBLICATIONS AND REPORTS</h2>
-<p><strong>Binley, A.D.</strong> and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.</p>
-<p>Bergman*, J.N., <strong>Binley*, A.D.</strong>, Murphy*, R.E., Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*, J.G., Fahrig, L., Bennett, J.R. 2019. Comment on the 10 Year Review of the Ontario Endangered Species Act. *authors contributed equally</p>
+<ol style="list-style-type: decimal">
+<li><p>Rhodes, J., Williams, B., <strong>Binley, A.D.</strong>, Chung,
+Y.F., Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N.,
+Chen, S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth
+and Environmental Sciences, The University of Queensland). 2022.
+Feedback Submission on a Biodiversity Market.</p></li>
+<li><p><strong>Binley, A.D.</strong> and Vincent, J.G. 2020. Book
+Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1):
+141-144.</p></li>
+<li><p>Bergman*, JN, <strong>Binley*, AD</strong>, Murphy*, RE,
+Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig,
+L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario
+Endangered Species Act. *authors contributed equally</p></li>
+</ol>
 </div>
 
 

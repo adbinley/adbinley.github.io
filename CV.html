@@ -13,7 +13,7 @@
 
 <title>CV - Allison D. Binley</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src="img/GRHE1.jpg" width="100%" align="center"></div>
 
 <style type="text/css">
@@ -63,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -83,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -140,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -173,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -182,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -235,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -284,45 +285,348 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="mailto:allisonbinley@cmail.carleton.ca"
-class="email">allisonbinley@cmail.carleton.ca</a></p>
+<p><a href="mailto:adb299@cornell.edu"
+class="email">adb299@cornell.edu</a></p>
 <div id="summary" class="section level2">
 <h2>SUMMARY</h2>
-<p>I am a PhD candidate at Carleton University specializing in
-quantitative ecological conservation. My work focuses on using existing
-data, and in particular community science data, to conduct broad-scale
-conservation research. I have a strong background in spatial statistics,
-decision science, literature review and big data analysis. My network of
-collaborators includes scientists from government (Environment and
-Climate Change Canada, Canadian Wildlife Service), non-governmental
-organizations (The Nature Conservancy and Nature Conservancy Canada),
-and other academic institutions (The Cornell Lab of Ornithology, The
-University of Queensland, and The University of British Columbia).</p>
+<p>I completed my PhD at Carleton University in 2023 specializing in
+quantitative conservation science. Currently, I am a Rose postdoctoral
+research fellow at the Cornell Lab of Ornithology, exploring new
+approaches for developing dynamic conservation programs by leveraging
+big citizen science datasets. I have a strong background in spatial
+statistics, decision science, literature review and big data analysis.
+My network of collaborators includes scientists from government
+(Environment and Climate Change Canada, Canadian Wildlife Service),
+non-governmental organizations (The Nature Conservancy and Nature
+Conservancy Canada), and several international academic institutions
+(Carleton University, The Cornell Lab of Ornithology, The University of
+Queensland, and The University of British Columbia).</p>
 </div>
 <div id="education" class="section level2">
 <h2>EDUCATION</h2>
-<p><strong>Doctor of Philosophy, Biology</strong> (fast-track, in
-progress)<br />
-2018 – present<br />
-<em>Carleton University, Ottawa ON</em><br />
-(12.0/12.0 GPA)</p>
-<p><em>Dissertation Title: Minimizing data waste: integrating existing
-data to improve conservation decisions and outcomes</em></p>
-<p>Advisors: Joseph Bennett (CU), Scott Wilson (ECCC/UBC), Richard
-Schuster (NCC/CU)</p>
-<p><em>Visiting Researcher: September 2022 - December 2022, Sustainable
+<p><strong>Doctor of Philosophy, Biology</strong> <em>2018 –
+2023</em><br />
+Carleton University, Ottawa, Canada<br />
+<strong>Thesis:</strong> From better monitoring to better decisions:
+improving conservation using community science<br />
+<strong>Supervisor:</strong> Dr. Joseph Bennett<br />
+<strong>Visiting Researcher:</strong> 2022/09 – 2022/12, Sustainable
 Landscapes Group, Centre for Biodiversity and Conservation Science,
-University of Queensland, QLD, Australia</em></p>
-<p><strong>Bachelor of Science with distinction, Biology</strong><br />
-November 2015<br />
-<em>University of Victoria, Victoria BC</em><br />
-(7.98/9.0 GPA)<br />
-<em>University of Wollongong, NSW, Australia (Academic
-Exchange)</em><br />
-July 2013 – July 2014</p>
+University of Queensland, QLD, Australia</p>
+<p><strong>Bachelor of Science with Distinction, Biology</strong>
+<em>2010-2015</em><br />
+University of Victoria, Victoria, Canada<br />
+<strong>Academic Exchange:</strong> July 2013/07 – 2014/07, University
+of Wollongong, NSW, Australia</p>
+</div>
+<div id="research-experience" class="section level2">
+<h2>RESEARCH EXPERIENCE</h2>
+<p><strong>Cornell Lab of Ornithology, USA</strong><br />
+<a href="https://www.birds.cornell.edu/home/staff/allison-binley/">Rose
+Postdoctoral Fellow</a>, <em>Oct 2023 - present</em> • Awarded a
+competitive three-year fellowship to conduct research on decision
+science frameworks for dynamic conservation</p>
+<p><strong>Environment and Climate Change Canada, Canada</strong><br />
+Sole-Source Contract, <em>Jan – Aug 2023</em> • Reviewed the literature
+for threats to species-at-risk in Canada and their responses to
+conservation actions<br />
+• Constructed a database detailing threats to endangered species and
+their responses to conservation actions to inform a pilot program
+incentivizing private investment in conservation</p>
+<p><strong>Carleton University, Canada</strong><br />
+Research Assistant, <em>Sep 2018 - Aug 2023</em> • Coordinated and
+executed research projects outside of thesis requirements, on topics
+including: community science; endangered species recovery, legislation
+and policy; climate, land-use change and governance risks to
+conservation; and protected area research and design (see peer-reviewed
+publications)<br />
+• Supported other lab projects by performing data extraction and entry,
+assisting with fieldwork, providing detailed manuscript revisions and
+feedback, designing and performing literature reviews, and organizing
+and analyzing survey data</p>
+<p><strong>University of Queensland, Australia</strong><br />
+Mitacs Globalink Visiting Scholar, <em>Sep – Dec 2022</em><br />
+• Invited to visit the University of Queensland for one semester to
+collaborate and conduct research on value of information analysis</p>
+<p><strong>Environment and Climate Change Canada, Canada</strong><br />
+Sole-Source Contract, <em>Jan – Apr 2020</em><br />
+• Designed and implemented a literature review on how community science
+can contribute to the design of resilient protected area networks
+through literature review and Bayesian topic modeling • Produced a
+deliverable within 4 months and successfully <a
+href="https://doi.org/10.1111/csp2.376">published</a> within a year</p>
+<p><strong>Marine Science Centre, University of Rostock,
+Germany</strong><br />
+Research Intern <a
+href="https://www.daad.org/en/find-funding/undergraduate-opportunities/research-internships-in-science-and-engineering-rise/">(RISE
+scholarship)</a>, <em>May – Aug 2015</em> • Awarded a highly competitive
+international scholarship to collaborate on multiple research projects
+investigating cognitive and sensory ecology in marine pinnipeds •
+Conducted experiments, animal training and welfare assessments, and
+guided scientific report writing while living on a research vessel in
+the Baltic Sea</p>
+<p><strong>University of Wollongong, Australia</strong><br />
+Science Intern, <em>Jan – Jun 2014</em><br />
+• Supported work on a PhD project investigating animal husbandry and
+captive breeding methods in mice and tadpoles • Performed morphological
+measurements, recorded data, and observed behavioural analysis and
+dissections • Maintained colonies of breeding house mice in
+captivity</p>
+<p><strong>Eco-Care Technologies, Canada</strong><br />
+Research Assistant, <em>May - Aug 2012</em><br />
+• Conducted research developing environmentally friendly biodegradable
+herbicides and pesticides<br />
+• Tested the efficacy of products in controlled greenhouse and field
+experiments<br />
+• Authored confidential reports summarizing results and progress</p>
+</div>
+<div id="peer-reviewed-publications" class="section level2">
+<h2>PEER-REVIEWED PUBLICATIONS</h2>
+<p>See my <a
+href="https://scholar.google.ca/citations?user=CrX15nAAAAAJ&amp;hl=en">Google
+Scholar Profile</a> for the most up to date publication list</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Soroye, P., Bennett, J.R. Making the Most of Existing Data in
+Conservation Research. In press in Perspectives in Ecology and
+Conservation</p></li>
+<li><p>Smith, A.C., <strong>Binley, A.D.</strong>, Daly, L., Edwards,
+P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L.,
+Smith, P.A. Spatially explicit Bayesian hierarchical models for avian
+population status and trends. In press in Ornithological
+Applications.</p></li>
+<li><p><strong>Binley, A.D.</strong>, Bennett, J.R. ,Schuster, R.,
+Rodewald, A.D., Fink, D., La Sorte, F., Zuckerberg, B., and Wilson, S.
+2023. <a href="https://doi.org/10.1111/ecog.06457">Species traits drive
+responses of forest birds to agriculturally-modified habitats throughout
+the annual cycle</a>. Ecography 2023(9), p.e06457<br />
+</p></li>
+<li><p><strong>Binley, A.D.</strong>, and Bennett, J.R. 2023. <a
+href="https://doi.org/10.1111/2041-210X.14110">The Data Double
+Standard</a>. Methods in Ecology and Evolution 14(6),
+1389-1387.</p></li>
+<li><p>Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J.,
+Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V.,
+<strong>Binley, A.D.</strong>, … Braga PHP. 2023. <a
+href="https://doi.org/10.31222/osf.io/x3p2q">Not Just for Programmers:
+How Github Can Accelerate Collaborative and Reproducible Research in
+Ecology and Evolution</a>. Methods in Ecology and Evolution 14(6):
+1364-1380.</p></li>
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. 2023
+<a href="https://doi.org/10.1016/j.biocon.2023">Patterns of community
+science data use in peer-reviewed research on biodiversity</a>.
+Biological Conservation, 280, 109985</p></li>
+<li><p><strong>Binley, A.D.</strong>, Edwards, B.P., Dansereau, G.,
+Knight, E.C. and Momeni-Dehaghi, I., 2023. <a
+href="https://doi.org/10.1002/bes2.2056">Minimizing Data Waste:
+Conservation in the Big Data Era</a>. The Bulletin of the Ecological
+Society of America, e2056.</p></li>
+<li><p>Schuster, R., Buxton, R., Hanson, J.O., <strong>Binley,
+A.D.</strong>, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H.,
+Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. 2023. <a
+href="https://doi.org/10.1111/cobi.14048">Protected Area Planning to
+Conserve Biodiversity in an Uncertain Future</a>. Conservation Biology,
+e14048.</p></li>
+<li><p>Soroye, P., Buxton, R.T., Ethier, J.P., Frempong-Manso, A.,
+Edwards, B.P.M., Keefe, H., Berberi, A., Roach-Krajewski, M.,
+<strong>Binley, A.D.</strong>, Vincent, J.G., Cooke, S.J. and Bennett,
+J.R. 2022. <a href="https://doi.org/10.1111/csp2.12788">The risks and
+rewards of community science for threatened species monitoring</a>.
+Conservation Science and Practice, e12788.</p></li>
+<li><p>Lin, H., <strong>Binley, A.D.</strong>, Schuster, R., Rodewald,
+A.D., Buxton, R., and Bennett, J.R. 2022. <a
+href="https://doi.org/10.1016/j.biocon.2022.109523">Using community
+science data to help identify threatened species occurrences outside of
+known ranges</a>. Biological Conservation, 268: 109523.</p></li>
+<li><p>Edwards, B.P.M., <strong>Binley, A.D.</strong>, English, W.B.,
+Hudgins, E.J., Snow, S.S. 2022. <a
+href="https://doi.org/10.22621/cfn.v136i1.2877">A highly anomalous
+Red-winged Blackbird (Agelaius phoeniceus) song</a>. Canadian
+Field-Naturalist, 136.</p></li>
+<li><p><strong>Binley, A.D.</strong>*, Proctor, C.A.*, Pither, R.,
+Davis, S.A., Bennett, J.R. 2021. <a
+href="https://doi.org/10.1111/csp2.376">The unrealized potential of
+community science to support research on the resilience of protected
+areas.</a> Conservation Science and Practice, e376. *authors contributed
+equally</p></li>
+<li><p>Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman,
+C., Cooke, S.J., Nyoboer, E.A., <strong>Binley, A.D.</strong>, Francis,
+C.M., Avery-Gomm, S., et al. 2021. <a
+href="https://doi.org/10.1016/j.biocon.2021.108983">Key information
+needs to move from knowledge to action for biodiversity conservation in
+Canada.</a> Conservation Biology, 108983.</p></li>
+<li><p>Buxton, R.T., Bergman, J.N., Lin, H.Y., <strong>Binley,
+A.D.</strong>, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett,
+J.R., 2020. <a href="10.1111/cobi.13652">Three lessons conservation
+science can learn from the COVID-19 pandemic</a> Conservation
+Biology.</p></li>
+<li><p>Butt, N.B., Rosner-Katz, H., <strong>Binley, A.D.</strong>,
+Davis, S., Pon, J., Radu, T. and Bennett, J.R. 2020. <a
+href="https://doi.org/10.3389/fevo.2020.00223">Threats, costs and
+probability of success: informing conservation choices. Frontiers in
+Ecology and Evolution.</a> 8:1-8.</p></li>
+<li><p>Bergman*, J.N., <strong>Binley, A.D.</strong>*, Murphy*, R.E.,
+Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*,
+J.G., Fahrig, L., Bennett, J.R. 2020. <a
+href="https://doi.org/10.1139/facets-2019-0050">How to rescue Ontario’s
+Endangered Species Act: A Biologist’s perspective.</a> FACETS.
+5(1):423-431. *authors contributed equally</p></li>
+<li><p>Gordon, E.R., Butt, N., Rosner-Katz, H., <strong>Binley,
+A.D.</strong>, and Bennett, J.R., 2019. <a
+href="https://doi.org/10.1111/cobi.13382">Relative costs of conserving
+threatened species across taxonomic groups.</a> Conservation Biology,
+34(1), 276-281.</p></li>
+<li><p>Bergman, J.N., Bennett, J.R., <strong>Binley, A.D.</strong>,
+Cooke, S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and
+Madliger, C.L., 2019. <a
+href="https://doi.org/10.1016/j.biocon.2019.108242">Scaling from
+individual physiological measures to population-level demographic
+change: Case studies and future directions for conservation
+management.</a> Biological Conservation, 238, 108242.</p></li>
+</ol>
+</div>
+<div id="publications-in-review" class="section level2">
+<h2>PUBLICATIONS IN REVIEW</h2>
+<ol style="list-style-type: decimal">
+<li><p>Bennett, J.R., Edwards, B.P.M., Bergman, J., <strong>Binley,
+A.D.</strong>, Buxton, R., Hanna, D., Hanson, J., Hudgins, E., Karimi,
+S., Raymond, C., Robichaud, C., Rytwinski, T. How ignoring detection
+probability hurts biodiversity conservation. In review in Frontiers in
+Ecology and the Environment (submitted 16/04/2023) ID:
+FEE23-0086</p></li>
+<li><p>Edwards, B.P.M., <strong>Binley, A.D</strong>. Evidence for a
+possible range expansion of White-fronted Bee-eater into Western and
+Eastern Cape, South Africa. In review in Afrotropical Bird Biology:
+Journal of the Natural History of African Birds (submitted 31/05/2023)
+ID: 1373</p></li>
+<li><p>Holden, M., Akinlotan, M., <strong>Binley, A.D.</strong>, Cho,
+F., Helmstedt, K., Chades, I. Why shouldn’t I collect more data?
+Reconciling disagreements between intuition and value of Information
+analyses. In review in Methods in Ecology and Evolution (submitted
+26/09/2023) ID: MEE-23-09-554</p></li>
+<li><p><strong>Binley, A.D.</strong>, Hanson, J.O., Robsinson, O.J.,
+Golet, G.H., Bennett, J.R. Quantifying the Value of Community Science
+Data for Conservation Decision-making. In review in Nature
+Sustainability (submitted 09/11/2023) ID: NATSUSTAIN-23114277</p></li>
+</ol>
+</div>
+<div id="preprints" class="section level2">
+<h2>PREPRINTS</h2>
+<ol style="list-style-type: decimal">
+<li><p>Smith, A.C., Aponte, V., Hudson, M.R., English, W.B., Jefferys,
+K., <strong>Binley, A.D.</strong>, Robinson, B., Donkersteeg, C.,
+Edwards, B.P.M., Daly, L., Cox, A.R., Roy, C. <a
+href="https://doi.org/10.32942/X2SP5J">Tracking the spatial patterns and
+the drivers of population trends on individual Breeding Bird Survey
+routes using spatially explicit models and route-level
+covariates.</a></p></li>
+<li><p>Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J.,
+Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V.,
+<strong>Binley, A.D.</strong>, … Braga PHP. <a
+href="https://doi.org/10.31222/osf.io/x3p2q">Not Just for Programmers:
+How Github Can Accelerate Collaborative and Reproducible Research in
+Ecology and Evolution.</a></p></li>
+<li><p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T.,
+Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. <a
+href="https://biorxiv.org/cgi/content/short/2022.10.17.512636v1">Patterns
+of community science data use in peer-reviewed research on
+biodiversity.</a></p></li>
+<li><p>Smith, A.C., <strong>Binley, A.D.</strong>, Daly, L., Edwards,
+P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L.,
+Smith, P.A. <a href="https://doi.org/10.32942/X2088D">Spatially explicit
+Bayesian hierarchical models for avian population status and
+trends.</a></p></li>
+</ol>
+</div>
+<div id="non-peer-reviewed-publications-and-reports"
+class="section level2">
+<h2>NON-PEER REVIEWED PUBLICATIONS AND REPORTS</h2>
+<ol style="list-style-type: decimal">
+<li><p>Rhodes, J., Williams, B., <strong>Binley, A.D.</strong>, Chung,
+Y.F., Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N.,
+Chen, S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth
+and Environmental Sciences, The University of Queensland). 2022.
+Feedback Submission on a Biodiversity Market.</p></li>
+<li><p><strong>Binley, A.D.</strong> and Vincent, J.G. 2020. Book
+Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1):
+141-144.</p></li>
+<li><p>Bergman*, JN, <strong>Binley*, AD</strong>, Murphy*, RE,
+Proctor*, CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig,
+L, Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario
+Endangered Species Act. *authors contributed equally</p></li>
+</ol>
+</div>
+<div id="conference-presentations-talks-invited-seminars"
+class="section level2">
+<h2>CONFERENCE PRESENTATIONS, TALKS, &amp; INVITED SEMINARS</h2>
+<p><strong>Organizer:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Binley, AD. &amp; Edwards, BPM. Minimizing Data Waste: Conservation
+in the Big Data Era <em>(symposium)</em>. ESA-CSEE Joint Meeting
+Montreal, Aug 2022</li>
+</ol>
+<p><strong>Invited Speaker:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Binley, AD. The More the Merrier: How leveraging crowd-sourced
+data can improve conservation decision making <em>(presentation)</em>.
+Fall Ornithology Seminar Series, Cornell University, New York, October
+2023.</p></li>
+<li><p>Binley, AD. <a href="https://youtu.be/tvi1SZ4ecfc">From Better
+Monitoring to Better Decisions: Improving Conservation using Community
+Science Data</a> <em>(presentation)</em>. Centre for Biodiversity and
+Conservation Science, University of Queensland, Australia, September
+2022.</p></li>
+<li><p>Binley, AD. From Better Monitoring to Better Decisions: Improving
+Conservation using Community Science Data <em>(award talk)</em>.
+ESA-CSEE Joint Meeting, Montreal, August 2022.</p></li>
+<li><p>Binley, AD. Quantifying the value of community science for
+conservation <em>(presentation)</em>. Minimizing Data Waste:
+Conservation in the Big Data Era Symposium, ESA-CSEE Joint Meeting,
+Montreal, August 2022.</p></li>
+<li><p>Binley, AD. Maximizing the benefits of citizen science for
+conservation <em>(presentation)</em>. The Ecology and Evolution group,
+University of Calgary. October 2021.</p></li>
+<li><p>Binley, AD., and Proctor, CA. The unrealized potential of
+community science to support research on the resilience of protected
+areas <em>(presentation)</em>. Pathway to Canada Target 1 Connectivity
+Working Group: Mini-Symposium, Environment and Climate Change Canada,
+February 2021.</p></li>
+<li><p>Binley, AD. Assessing avian population trend estimates: comparing
+eBird and the BBS. Cornell Lab of Ornithology Seminar Series
+<em>(presentation)</em>, February 2021</p></li>
+<li><p>Binley, AD. Assessing avian population trend estimates: comparing
+eBird and the BBS <em>(presentation)</em>. Breeding Bird Survey
+Symposium, North American Ornithological Conference (virtual), August
+2020</p></li>
+<li><p>Binley, AD. Overcoming conservation challenges with citizen
+science <em>(presentation)</em>. Eastern Ontario Natural History
+Society, University of Ottawa, ON. March 2020</p></li>
+<li><p>Binley, AD., and Vincent, JG. How scientists (and citizens!) help
+birds <em>(presentation)</em>. Girl Guides of Canada, Sandy Hill
+Community Centre, Ottawa, ON. March 2020.</p></li>
+<li><p>Binley, AD. Optimization of biodiversity monitoring and modeling
+citizen science data <em>(seminar)</em>. Cornell University, May
+2019</p></li>
+</ol>
+<p><strong>Other:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Binley, AD. Quantifying the Value of Community Science Data for
+Conservation Decision-making <em>(presentation)</em>. EURING,
+Montpellier, April 2023</p></li>
+<li><p>Binley, AD. Species traits drive responses of forest birds to
+agriculturally-modified habitats throughout the annual cycle
+<em>(presentation)</em>. International Statistical Ecology Conference,
+Cape Town, June 2022.</p></li>
+<li><p>Binley, AD. Assessing avian population trend estimates: comparing
+eBird and the BBS <em>(poster)</em>. Society of Canadian Ornithologists
+Meeting, Quebec City, August 2019</p></li>
+</ol>
 </div>
 <div id="awards-grants" class="section level2">
 <h2>AWARDS &amp; GRANTS</h2>
+<p><em>2023</em>                George R. Carmody Graduate Student
+Travel Award ($1400)</p>
 <p><em>2022</em>                Michael Smith Foreign Study Supplement
 ($6000)</p>
 <p><em>2022</em>                CSEE Excellence in Doctoral Research
@@ -373,155 +677,133 @@ Grant ($1000)</p>
 <p><em>2010</em>                University of Victoria Entrance
 Scholarship ($2500)</p>
 </div>
-<div id="peer-reviewed-publications" class="section level2">
-<h2>PEER-REVIEWED PUBLICATIONS</h2>
-<p><a
-href="https://scholar.google.ca/citations?user=CrX15nAAAAAJ&amp;hl=en">Google
-Scholar Profile</a></p>
-<p>Soroye, P., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Edwards,
-B.P.M., Keefe, H., Berberi, A., Roach-Krajewski, M., <strong>Binley,
-A.D.</strong>, Vincent, J.G., Cooke, S.J. and Bennett, J.R. 2022. <a
-href="https://doi.org/10.1111/csp2.12788">The risks and rewards of
-community science for threatened species monitoring</a>. Conservation
-Science and Practice, e12788.</p>
-<p>Lin, H., <strong>Binley, A.D.</strong>, Schuster, R., Rodewald, A.D.,
-Buxton, R., and Bennett, J.R. <a
-href="https://doi.org/10.1016/j.biocon.2022.109523">Using community
-science data to help identify threatened species occurrences outside of
-known ranges</a>. Biological Conservation, 268: 109523.</p>
-<p>Edwards, B.P.M., <strong>Binley, A.D.</strong>, English, W.B.,
-Hudgins, E.J., Snow, S.S. <a
-href="https://doi.org/10.22621/cfn.v136i1.2877">A highly anomalous
-Red-winged Blackbird (Agelaius phoeniceus) song</a>. Canadian
-Field-Naturalist, 136.</p>
-<p><strong>Binley, A.D.</strong>*, Proctor, C.A.*, Pither, R., Davis,
-S.A., Bennett, J.R. 2021. <a href="https://doi.org/10.1111/csp2.376">The
-unrealized potential of community science to support research on the
-resilience of protected areas.</a> Conservation Science and Practice,
-e376. *authors contributed equally</p>
-<p>Buxton, R.T., Smith, P.A., Bennett, J.R., Reid, A.J., Shulman, C.,
-Cooke, S.J., Nyoboer, E.A., <strong>Binley, A.D.</strong>, Francis,
-C.M., Avery-Gomm, S., et al. 2021. <a
-href="https://doi.org/10.1016/j.biocon.2021.108983">Key information
-needs to move from knowledge to action for biodiversity conservation in
-Canada.</a> Conservation Biology, 108983.</p>
-<p>Buxton, R.T., Bergman, J.N., Lin, H.Y., <strong>Binley,
-A.D.</strong>, Avery-Gomm, S., Schuster, R., Roche, D.G. and Bennett,
-J.R., 2020. <a href="10.1111/cobi.13652">Three lessons conservation
-science can learn from the COVID-19 pandemic</a> Conservation
-Biology.</p>
-<p>Butt, N.B., Rosner-Katz, H., <strong>Binley, A.D.</strong>, Davis,
-S., Pon, J., Radu, T. and Bennett, J.R. 2020. <a
-href="https://doi.org/10.3389/fevo.2020.00223">Threats, costs and
-probability of success: informing conservation choices. Frontiers in
-Ecology and Evolution.</a> 8:1-8.</p>
-<p>Bergman*, J.N., <strong>Binley, A.D.</strong>*, Murphy*, R.E.,
-Proctor*, C.A., Nguyen*, A.T., Urness*, E.S., Vala*, M.A., Vincent*,
-J.G., Fahrig, L., Bennett, J.R. 2020. <a
-href="https://doi.org/10.1139/facets-2019-0050">How to rescue Ontario’s
-Endangered Species Act: A Biologist’s perspective.</a> FACETS.
-5(1):423-431. *authors contributed equally</p>
-<p>Gordon, E.R., Butt, N., Rosner-Katz, H., <strong>Binley,
-A.D.</strong>, and Bennett, J.R., 2019. <a
-href="https://doi.org/10.1111/cobi.13382">Relative costs of conserving
-threatened species across taxonomic groups.</a> Conservation Biology,
-34(1), 276-281.</p>
-<p>Bergman, J.N., Bennett, J.R., <strong>Binley, A.D.</strong>, Cooke,
-S.J., Fyson, V., Hlina, B.L., Reid, C.H., Vala, M.A. and Madliger, C.L.,
-2019. <a href="https://doi.org/10.1016/j.biocon.2019.108242">Scaling
-from individual physiological measures to population-level demographic
-change: Case studies and future directions for conservation
-management.</a> Biological Conservation, 238, 108242.</p>
+<div id="funding-administration" class="section level2">
+<h2>FUNDING ADMINISTRATION</h2>
+<p><em>2023-2026</em>      Rose Postdoctoral Research Account, Cornell
+University: $30,000 USD</p>
+<p><em>2023-2024</em>      Student Employment Fund, Cornell University:
+$6,000 USD</p>
 </div>
-<div id="publications-in-review" class="section level2">
-<h2>PUBLICATIONS IN REVIEW</h2>
-<p>Schuster, R., Buxton, R., Hanson, J.O., <strong>Binley,
-A.D.</strong>, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H.,
-Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R.
-Biodiversity conservation in an uncertain world. In review in
-Conservation Biology (submitted 28/04/2022), ID: 22-265</p>
-<p><strong>Binley, A.D.</strong>, Wilson, S., Schuster, R., Rodewald,
-A.D., Fink, D., La Sorte, F., Zuckerberg, B., and Bennett, J.R. Species
-traits drive responses of forest birds to agriculturally-modified
-habitats throughout the annual cycle. In review in Ecography (submitted
-26/05/2022), ID ECOG-06457</p>
-<p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T., Proctor,
-C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. <a
-href="https://biorxiv.org/cgi/content/short/2022.10.17.512636v1">Patterns
-of community science data use in peer-reviewed research on
-biodiversity</a>. In review in Biological Conservation (submitted
-31/08/2022) ID: BIOCON-D-22-01017</p>
-<p><strong>Binley, A.D.</strong>, Vincent, J.G., Rytwinski, T., Soroye,
-P., Bennett, J.R. Making the Most of Existing Data in Conservation
-Research. In review in Perspectives in Ecology and Conservation
-(submitted 31/08/2022) ID: PECON-D-22-00177</p>
-<p>Edwards, B.P.M., <strong>Binley, A.D.</strong> Evidence for a
-possible range expansion of White-fronted Bee-eater into Western and
-Eastern Cape, South Africa. In review in Bird Conservation
-International.</p>
-<p>Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J.,
-Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V.,
-<strong>Binley, A.D.</strong>, … Braga PHP. <a
-href="https://doi.org/10.31222/osf.io/x3p2q">Not Just for Programmers:
-How Github Can Accelerate Collaborative and Reproducible Research in
-Ecology and Evolution</a>. In review in Methods in Ecology and
-Evolution</p>
+<div id="academic-supervision" class="section level2">
+<h2>ACADEMIC SUPERVISION</h2>
+<ol style="list-style-type: decimal">
+<li><p><strong>L. Haddaway</strong>, Carleton University. Graduate
+Research Assistant, sole-source contract through Environment and Climate
+Change Canada. Quantifying species responses to conservation actions
+<em>(2023-present)</em></p></li>
+<li><p><strong>S. Williams</strong>, Carleton University. Honours
+Undergraduate Thesis. Exploring the use of community science to mitigate
+human conflict with undesirable wildlife <em>(2021-2022)</em></p></li>
+<li><p><strong>S. Davis</strong>, Carleton University. Dean’s Summer
+Research Internship Undergraduate Student, Research Assistant. Potential
+for citizen science to fill gaps in endangered species conservation; The
+unrealized potential of citizen science to support research on the
+resilience of protected areas <em>(2019 - 2020)</em></p></li>
+<li><p><strong>V. Greenough</strong>, Carleton University. Undergraduate
+Research Assistant. Potential for citizen science to fill gaps in
+endangered species conservation <em>(Fall 2019)</em></p></li>
+</ol>
 </div>
-<div id="non-peer-reviewed-publications-and-reports"
-class="section level2">
-<h2>NON-PEER REVIEWED PUBLICATIONS AND REPORTS</h2>
-<p>Rhodes, J., Williams, B., <strong>Binley, A.D.</strong>, Chung, Y.F.,
-Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N., Chen,
-S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth and
-Environmental Sciences, The University of Queensland). 2022. Feedback
-Submission on a Biodiversity Market.</p>
-<p><strong>Binley, A.D.</strong> and Vincent, J.G. 2020. Book Review:
-Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.</p>
-<p>Bergman*, JN, <strong>Binley*, AD</strong>, Murphy*, RE, Proctor*,
-CA, Nguyen*, AT, Urness*, ES, Vala*, MA, Vincent*, JG, Fahrig, L,
-Bennett, JR. 2019. Comment on the 10 Year Review of the Ontario
-Endangered Species Act. *authors contributed equally</p>
-</div>
-<div id="professional-history" class="section level2">
-<h2>PROFESSIONAL HISTORY</h2>
-<p><strong>Forest Invader Management Workshop</strong><br />
-<em>Workshop hosted by Carleton University / McGill University, Jan
-2022</em><br />
-• Facilitator for workshop on invasive species management • Provided
-discussion prompts, recorded meeting notes, and summarized break-out
-meetings • Helped revise and finalize themes of the workshop • Ongoing
-collaborator on the publication in progress</p>
+<div id="teaching-experience" class="section level2">
+<h2>TEACHING EXPERIENCE</h2>
 <p><strong>Contract Instructor</strong><br />
-<em>Carleton University, Sep – Dec 2021</em><br />
+Carleton University, <em>Sep – Dec 2021</em><br />
 • Instructor for second year undergraduate environmental science course,
-Environmental Methods and Analysis<br />
-• Provided course content both in person and online<br />
-• Teaching Evaluation: 4.79/5</p>
+Environmental Methods and Analysis • Provided course content both in
+person and online (hybrid) • Teaching evaluation: 4.79/5</p>
+<p><strong>Teaching Assistant</strong><br />
+Carleton University, <em>Sep 2018 - Apr 2022</em><br />
+• Courses: Biology, Ornithology, Environmental Methods and Analysis,
+Environmental Decisions, Natural History • Facilitated group discussions
+and laboratory experiments, fostered learning through constructive
+feedback on assignments and during office hours, created and taught
+lectures</p>
+<p><strong>Guest Lectures</strong></p>
+<p>October 2023<br />
+The More the Merrier: How leveraging crowd-sourced data can improve
+conservation decision making, Ornithology, Cornell University</p>
+<p>March 2021<br />
+Citizen Science. Seminar in Interdisciplinary Science (ISAP 1002),
+Carleton University</p>
+<p>January 2021<br />
+Conducting research using community science. Environmental Methods and
+Analysis (ENSC 2002), Carleton University</p>
+<p>October 2019<br />
+Citizen science for avian monitoring and conservation. Ornithology (BIOL
+4500A), Carleton University</p>
+<p>March 2019<br />
+Citizen Science for Spatial Prioritization. Environmental Decisions
+(ENSC 4002), Carleton University</p>
+</div>
+<div id="workshops" class="section level2">
+<h2>WORKSHOPS</h2>
+<p><strong>Organizer:</strong></p>
+<p><strong>Canadian Collaborator Meeting</strong><br />
+Cornell Lab of Ornithology, New York, Nov 2023<br />
+• Lead organizer for a two-day workshop focusing on question- and
+application-driven ideas in the ecology &amp; conservation arenas<br />
+• Aim to build on existing collaborations between the Cornell Lab of
+Ornithology, Carleton University, the University of British Columbia,
+and the Canadian Federal Government (Environment and Climate Change
+Canada and the Canadian Wildlife Service).</p>
+<p><strong>Value of Information Workshop</strong><br />
+University of Queensland, Australia, Oct 2022<br />
+• Lead organizer for a three-day workshop on Value of Information with
+senior researchers at the University of Queensland • Outlined papers and
+opportunities for future collaboration</p>
+<p><strong>Invited Participant:</strong></p>
+<p><strong>Value of Information in Antarctica Workshop</strong><br />
+Queensland University of Technology, Australia, Oct 2022<br />
+• Invited to participate in a workshop on how to use Value of
+Information analysis to prioritize monitoring and conservation efforts
+in Antarctica, an extremely data-sparse region</p>
+<p><strong>Forest Invader Management Workshop</strong><br />
+Workshop hosted by Carleton University / McGill University, Jan
+2022<br />
+• Facilitator for workshop on invasive species management<br />
+• Provided discussion prompts, recorded meeting notes, and summarized
+break-out meetings<br />
+• Helped revise and finalize themes of the workshop<br />
+• Ongoing collaborator on the publication in progress</p>
+<p><strong>Identifying Canada’s Information Needs – Meeting Biodiversity
+Conservation Targets</strong><br />
+Workshop hosted by Carleton University / Environment and Climate Change
+Canada, Jan 2020<br />
+• Contributed significantly to the design of surveys collecting data on
+biodiversity information needs according to experts<br />
+• Collated information from round-table discussions between researchers
+from academic institutions, government, non-governmental organizations
+and Indigenous Knowledge holders<br />
+• Delivered results of discussions and collaborated with coordinators to
+summarize data from the workshop<br />
+• Contributed to writing and revising the final publication as a
+coauthor</p>
+</div>
+<div id="working-groups" class="section level2">
+<h2>WORKING GROUPS</h2>
+<p><strong>Organizer:</strong></p>
+<p><strong>Value of Information Working Group</strong><br />
+• Working group that was created through a workshop led by myself at the
+University of Queensland in 2022<br />
+• Academics from Carleton University, the Queensland University of
+Technology, the University of Queensland, and the Commonwealth
+Scientific and Industrial Research Organisation collaborating on ongoing
+projects</p>
+<p><strong>Invited Participant:</strong></p>
+<p><strong>The Canadian Eco-enviro Decision Analysis and Risk Group
+(CEDAR)</strong><br />
+• Canadian early career researchers that meet monthly to discuss topics
+in decision science and conservation</p>
+</div>
+<div id="other-professional-experience" class="section level2">
+<h2>OTHER PROFESSIONAL EXPERIENCE</h2>
 <p><strong>Social Media Coordinator</strong><br />
 <em>Geomatics and Landscape Ecology Lab <a
-href="https://twitter.com/glelcarleton">(GLEL)</a>, May 2019 –
-present</em><br />
+href="https://twitter.com/glelcarleton">(GLEL)</a>, May 2019 – Sep
+2021</em><br />
 • Showcased GLEL members’ accomplishments and publications via social
 media<br />
 • Communicated scientific ideas and research to a broad audience</p>
-<p><strong>Teaching Assistant</strong><br />
-<em>Carleton University, Sep 2018 - present</em><br />
-• Courses: Biology, Ornithology, Environmental Methods and Analysis,
-Environmental Decisions, Natural History<br />
-• Facilitated group discussions and laboratory experiments, fostered
-learning through constructive feedback on assignments and during office
-hours, created and taught lectures</p>
-<p><strong>Research Assistant</strong><br />
-<em>Carleton University, Sep 2018 - present</em><br />
-• Coordinated and executed research projects outside of thesis
-requirements, on topics including: community science; endangered species
-recovery, legislation and policy; climate, land-use change and
-governance risks to conservation; and protected area research and design
-(see peer-reviewed publications)<br />
-• Supported other lab projects by performing data extraction and entry,
-assisting with fieldwork, providing detailed manuscript revisions and
-feedback, designing and performing literature reviews, and organizing
-and analyzing survey data</p>
 <p><strong>Friday Discussion Coordinator</strong><br />
 <em>Geomatics and Landscape Ecology Lab (GLEL), Dec 2018 – September
 2020</em><br />
@@ -530,13 +812,6 @@ government, the community, and academia to discuss current issues in
 ecology, conservation and policy<br />
 • Provided feedback on manuscripts, planned seminars and workshops, and
 orchestrated comments on government policy and legislation</p>
-<p><strong>Research Scientist – Sole-Source Contract</strong><br />
-<em>Environment and Climate Change Canada, Jan – Apr 2020</em><br />
-• Designed and implemented a literature review on how community science
-can contribute to the design of resilient protected area networks
-through literature review and Bayesian topic modeling<br />
-• Produced a deliverable within 4 months and successfully <a
-href="https://doi.org/10.1111/csp2.376">published</a> within a year</p>
 <p><strong><a
 href="https://www2.gov.bc.ca/gov/content/invasive-mussels/invasive-mussel-defence-program">Aquatic
 Invasive Species Inspector</a></strong><br />
@@ -550,47 +825,14 @@ watercraft<br />
 agencies to maximize program effectiveness<br />
 • Facilitated the collection of data to assess program success<br />
 • Disseminated education and outreach materials to the public</p>
-<p><strong>Research Intern <a
-href="https://www.daad.org/en/find-funding/undergraduate-opportunities/research-internships-in-science-and-engineering-rise/">(RISE
-scholarship)</a></strong><br />
-<em>Marine Science Centre (Germany), May – Aug 2015</em><br />
-• Awarded a highly competitive international scholarship to collaborate
-on multiple research projects investigating cognitive and sensory
-ecology in marine pinnipeds<br />
-• Conducted experiments, animal training and welfare assessments, and
-guided scientific report writing while living on a research vessel in
-the Baltic Sea</p>
-<p><strong>Science Intern</strong><br />
-<em>University of Wollongong (Australia), Jan – Jun 2014</em><br />
-• Supported work on a <a
-href="https://zoologistjones.wordpress.com/phenotypicplasticity/">PhD
-project</a> investigating animal husbandry and captive breeding methods
-in mice and tadpoles<br />
-• Performed morphological measurements, recorded data, and observed
-behavioural analysis and dissections<br />
-• Maintained colonies of breeding house mice in captivity</p>
-<p><strong>Research Assistant</strong><br />
-<em>Eco-Care Technologies, May-Aug 2012</em><br />
-• Conducted research developing environmentally friendly biodegradable
-herbicides and pesticides • Tested the efficacy of products in
-controlled greenhouse and field experiments • Authored confidential
-reports summarizing results and progress</p>
 </div>
 <div id="volunteer-experience" class="section level2">
 <h2>VOLUNTEER EXPERIENCE</h2>
-<p><strong>Identifying Canada’s Information Needs – Meeting Biodiversity
-Conservation Targets</strong><br />
-<em>Workshop hosted by Carleton University / Environment and Climate
-Change Canada, Jan 2020</em><br />
-• Contributed significantly to the design of surveys collecting data on
-biodiversity information needs according to experts<br />
-• Collated information from round-table discussions between researchers
-from academic institutions, government, non-governmental organizations
-and Indigenous Knowledge holders • Delivered results of discussions and
-collaborated with coordinators to summarize data from the workshop<br />
-• Contributed to writing and revising the final <a
-href="https://doi.org/10.1016/j.biocon.2021.108983">publication</a> as a
-coauthor</p>
+<p><strong>Kinàmàgawin Indigenous Learning Certificate – Ecology Working
+Group</strong><br />
+<em>Carleton University, Sep – Dec 2022</em> • Organized a working group
+of staff and students from various ecology labs at Carleton University
+to learn about issues facing Canadian Indigenous people</p>
 <p><strong>Gatineau Park Citizen Science Surveys</strong><br />
 <em><a href="https://www.friendsofgatineaupark.com/home.html">Friends of
 Gatineau Park</a>, Summer 2019</em><br />
@@ -654,87 +896,26 @@ varying degrees of English fluency</p>
 href="https://zoologistjones.wordpress.com/2017/04/25/zoology-internships/">guest
 blogs</a> on early career development in the zoological sciences</p>
 </div>
-<div id="academic-supervision" class="section level2">
-<h2>ACADEMIC SUPERVISION</h2>
-<p><strong>S. Williams</strong>, Carleton University. Honours
-Undergraduate Thesis. Exploring the use of community science to mitigate
-human conflict with undesirable wildlife <em>(2021-2022)</em></p>
-<p><strong>S. Davis</strong>, Carleton University. Dean’s Summer
-Research Internship Undergraduate Student, Research Assistant. Potential
-for citizen science to fill gaps in endangered species conservation; The
-unrealized potential of citizen science to support research on the
-resilience of protected areas <em>(2019 - 2020)</em></p>
-<p><strong>V. Greenough</strong>, Carleton University. Undergraduate
-Research Assistant. Potential for citizen science to fill gaps in
-endangered species conservation <em>(Fall 2019)</em></p>
-</div>
-<div id="teaching-experience" class="section level2">
-<h2>TEACHING EXPERIENCE</h2>
-<p><em>Sep – Dec 2021</em>       <strong>Binley, A.D.</strong> and
-Hudgins, E. Environmental Methods and Analysis. Contract Instructor,
-Carleton University</p>
-<p><em>March 2021</em>            <strong>Binley, AD.</strong>
-Coordinating and marking student presentations (ENSC 2002)</p>
-<p><em>January 2021</em>          <strong>Binley, AD.</strong>
-Conducting research using community science. Guest Lecture,
-Environmental Methods and Analysis (ENSC 2002), Carleton University</p>
-<p><em>October 2019</em>          <strong>Binley, AD.</strong> Citizen
-science for avian monitoring and conservation. Guest Lecture,
-Ornithology (BIOL 4500A), Carleton University</p>
-<p><em>March 2019</em>             <strong>Binley, AD.</strong>,
-Vincent, JG, Bennett, JR. Citizen Science for Spatial Prioritization.
-Guest Lecture, Environmental Decisions (ENSC 4002), Carleton
-University</p>
-</div>
-<div id="conference-presentations-talks-invited-seminars"
-class="section level2">
-<h2>CONFERENCE PRESENTATIONS, TALKS, &amp; INVITED SEMINARS</h2>
-<p><strong>Binley, A.D.</strong> Maximizing the benefits of citizen
-science for conservation (presentation – invited speaker). The Ecology
-and Evolution group, University of Calgary. <em>October 2021</em></p>
-<p><strong>Binley, A.D.</strong>, and Proctor, CA. The unrealized
-potential of community science to support research on the resilience of
-protected areas (presentation – invited speaker). Pathway to Canada
-Target 1 Connectivity Working Group: Mini-Symposium, Environment and
-Climate Change Canada, <em>February 2021</em></p>
-<p><strong>Binley, A.D.</strong> Assessing avian population trend
-estimates: comparing eBird and the BBS. Cornell Lab of Ornithology
-Seminar Series (presentation - invited speaker), <em>February
-2021</em></p>
-<p><strong>Binley, A.D.</strong> Assessing avian population trend
-estimates: comparing eBird and the BBS (presentation – invited speaker).
-Breeding Bird Survey Symposium, North American Ornithological Conference
-(virtual), <em>August 2020</em></p>
-<p><strong>Binley, A.D.</strong> Overcoming conservation challenges with
-citizen science (presentation – invited speaker). Eastern Ontario
-Natural History Society, University of Ottawa, ON. <em>March
-2020</em></p>
-<p><strong>Binley, A.D.</strong>, and Vincent, JG. How scientists (and
-citizens!) help birds. Girl Guides of Canada, Sandy Hill Community
-Centre, Ottawa, ON. <em>March 2020</em></p>
-<p><strong>Binley, A.D.</strong> Assessing avian population trend
-estimates: comparing eBird and the BBS (poster). Society of Canadian
-Ornithologists Meeting, <em>August 2019</em></p>
-<p><strong>Binley, A.D.</strong> Optimization of biodiversity monitoring
-and modeling citizen science data. Cornell University, <em>May
-2019</em></p>
-<p><strong>Binley, A.D.</strong> Thesis presentation: how citizen
-science data can fill gaps in biodiversity monitoring. GLEL Friday
-Discussion 5 Minute Talks, Carleton University, <em>May 2019</em></p>
-</div>
 <div id="professional-service" class="section level2">
 <h2>PROFESSIONAL SERVICE</h2>
-<p><strong>Peer Review:</strong> Landscape Ecology, FACETS (3), Avian
-Conservation and Ecology</p>
-<p><strong>Supervised Peer Review:</strong> Conservation Science and
-Practice</p>
-<p><strong>Oral and Poster Presentation Judge:</strong> Ottawa-Carleton
-Institute of Biology 16th annual Symposium, May 2019<br />
+<p><strong>Peer Review:</strong><br />
+Journal of Applied Ecology, Marine Biology (2), Landscape Ecology,
+FACETS (3), Avian Conservation and Ecology, Natural Areas Journal,
+Ecology and Evolution (2), Conservation Science and Practice</p>
+<p><strong>Oral and Poster Presentation Judge:</strong><br />
+Ottawa-Carleton Institute of Biology 16th annual Symposium, May
+2019<br />
 <em>Category: Genetics and Physiology</em></p>
 </div>
 <div id="career-development-courses-and-certifications"
 class="section level2">
 <h2>CAREER DEVELOPMENT COURSES AND CERTIFICATIONS</h2>
+<p><strong>2022 Kinàmàgawin Indigenous Learning
+Certificate</strong><br />
+Learning about anti-Indigenous racism in Canada, institutional
+anti-indigenous racism and education, Indigenous student experiences and
+the Centre for Indigenous Initiatives, and practicing allyship and
+righting relations.</p>
 <p><strong>2021 Introduction to Evidence Synthesis</strong><br />
 Introduction to evidence synthesis, with a focus on systematic reviewing
 and systematic mapping. Participants gain an overview of the activities
@@ -801,6 +982,9 @@ History &amp; Harmony)</strong></p>
 </div>
 <div id="media" class="section level2">
 <h2>MEDIA</h2>
+<p><em>April 2023</em> <a
+href="https://carleton.ca/ci/2023/conservation-science-in-australia/">Globalink
+Research Award: Conservation Science in Australia.</a></p>
 <p><em>June 2020</em> Interview - “Minster faces key decision on
 conserving endangered species, environmentalists say”. David Haines,
 Queen’s Park Briefing</p>

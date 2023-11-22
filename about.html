@@ -13,6 +13,7 @@
 
 <title>About</title>
 
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src="img/canoe_amazon1.jpg" width="100%" align="center"></div>
 
 <style type="text/css">
@@ -62,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,11 +285,35 @@ $(document).ready(function () {
 </div>
 
 
-<p>I am a PhD candidate at Carleton University specializing in quantitative biodiversity conservation. The aim of my thesis research is to examine how advances in the use and integration of big datasets are crucial for conducting more effective conservation research and improving management decisions and outcomes. My work focuses on integrating existing data, particularly community science data, to conduct broad-scale conservation research. I have a strong background in spatial statistics, decision science, data integration, literature review and big data analysis, and my research spans local, hemispheric and global scales.</p>
-<p>I completed my undergraduate studies at the University of Victoria in 2015, with a Bachelor of Science in Biology. In the past, I have worked on a wide variety of projects, including <a href="https://zoologistjones.wordpress.com/phenotypicplasticity/">captive breeding research</a> in Australia, <a href="https://www.marine-science-center.de/home-86.html">pinniped cognitive and sensory ecology</a> in Germany, and <a href="https://www.diveagainstdebris.org/diver/save-cambodian-marine-life">coral reef restoration</a> in Cambodia. More recently I worked for the Conservation Officer Service in British Columbia preventing the spread of <a href="https://www2.gov.bc.ca/gov/content/invasive-mussels/invasive-mussel-defence-program">aquatic invasive species</a>, and volunteered on a number of bird monitoring and banding projects with <a href="https://www.birdscanada.org/">Birds Canada</a> and <a href="http://wildresearch.ca/">Wild Research</a>.</p>
+<p>I completed my PhD at Carleton University in 2023 specializing in
+quantitative biodiversity conservation. The aim of my thesis research
+was to examine how advances in the use and integration of big datasets
+are crucial for conducting more effective conservation research and
+improving management decisions and outcomes. My work focuses on
+integrating existing data, particularly community science data, to
+conduct broad-scale conservation research. I have a strong background in
+spatial statistics, decision science, data integration, literature
+review and big data analysis, and my research spans local, hemispheric
+and global scales.</p>
+<p>I completed my undergraduate studies at the University of Victoria in
+2015, with a Bachelor of Science in Biology. In the past, I have worked
+on a wide variety of projects, including <a
+href="https://zoologistjones.wordpress.com/phenotypicplasticity/">captive
+breeding research</a> in Australia, <a
+href="https://www.marine-science-center.de/home-86.html">pinniped
+cognitive and sensory ecology</a> in Germany, and <a
+href="https://www.diveagainstdebris.org/diver/save-cambodian-marine-life">coral
+reef restoration</a> in Cambodia. More recently I worked for the
+Conservation Officer Service in British Columbia preventing the spread
+of <a
+href="https://www2.gov.bc.ca/gov/content/invasive-mussels/invasive-mussel-defence-program">aquatic
+invasive species</a>, and volunteered on a number of bird monitoring and
+banding projects with <a href="https://www.birdscanada.org/">Birds
+Canada</a> and <a href="http://wildresearch.ca/">Wild Research</a>.</p>
 <div id="contact-me" class="section level2">
 <h2>Contact Me</h2>
-<p><strong>Email</strong>: <a href="mailto:allisonbinley@cmail.carleton.ca" class="email">allisonbinley@cmail.carleton.ca</a></p>
+<p><strong>Email</strong>: <a href="mailto:adb299@cornell.edu"
+class="email">adb299@cornell.edu</a></p>
 </div>
 
 

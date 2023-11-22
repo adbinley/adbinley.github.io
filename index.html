@@ -13,6 +13,7 @@
 
 <title>Allison D. Binley</title>
 
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 <div><img src="img/landing.jpg" width="100%" align="center"></div>
 
 <style type="text/css">
@@ -62,6 +63,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +84,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -172,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -181,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -234,7 +236,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -283,18 +285,23 @@ $(document).ready(function () {
 </div>
 
 
-<p>I am a PhD candidate with the <a href="https://carleton.ca/bennett-lab/">Bennett Lab</a> at Carleton University. My research focuses on decision science and avian conservation, particularly making use of community science data. <a href="about.html">More about me.</a></p>
+<p>I am a Rose Postdoctoral Fellow at the <a
+href="https://www.birds.cornell.edu/home/">Cornell Lab of
+Ornithology</a>. My current focus is on using available data sources
+including community science to conduct research on the design and
+implementation of dynamic conservation programs <a
+href="about.html">More about me.</a></p>
 <p>**************************************************************************************************</p>
-<p><strong>Look for me at these international conferences this year:</strong><br />
-• <a href="https://www.isec2022.org/">International Statistical Ecology Conference (ISEC)</a> - <em>Species traits determine the influence of anthropogenically-modified habitats on forest bird occurrence throughout the annual cycle (in person oral presentation)</em><br />
-• <a href="https://www.esa.org/montreal2022/">Ecological Society of America - Canadian Society for Ecology and Evolution Joint Meeting (ESA-CSEE)</a> - <em>Minimizing Data Waste: Conservation in the Big Data Era Symposium. Redistributing conservation resources from monitoring to action using community science (Symposium organizer and invited speaker)</em></p>
+<!-- <img src="img/GLEL.png" width="20%" align="left"> -->
+<!-- <img src="img/carleton.png" width="20%" align="center"> -->
+<!-- <img src="img/nserc1.png" width="20%" align="right"> -->
 
 <div>
   <hr />
   <center>
   <img src="img/GLEL.png" width="20%" align="left">
   <img src="img/carleton.png" width="20%" align="center">
-  <img src="img/NSERC1.png" width="20%" align="right">
+  <img src="img/nserc1.png" width="20%" align="right">
   </center>
   <br />
   <p style="font-size:10px;">Photos taken by myself or <a href = "http://brandonedwards.ca">Brandon Edwards</a></p>
