@@ -4,9 +4,13 @@ output:
   html_document:
     includes:
       in_header: index-cover.html
-      after_body: footer.html
+      # after_body: footer.html
 ---
-I am a Rose Postdoctoral Fellow at the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/). My current focus is on using available data sources including community science to conduct research on the design and implementation of dynamic conservation programs [More about me.](about.html)
+I am a Rose Postdoctoral Fellow at the [Cornell Lab of Ornithology](https://www.birds.cornell.edu/home/). My current focus is on using available data sources including participatory science to conduct research on the design and implementation of dynamic conservation programs [More about me.](about.html)
+
+Starting July 1 2025 I will be an Assistant Professor in Quantitative Ecology at the [University of Manitoba](https://umanitoba.ca/). If you are interested in collaboration or graduate/post-doc opportunities please reach out! 
+
+Email: adb299@cornell.edu
 
 
 

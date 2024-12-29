@@ -11,7 +11,7 @@ adb299@cornell.edu
 
 ## SUMMARY
 
-I completed my PhD at Carleton University in 2023 specializing in quantitative conservation science. Currently, I am a Rose postdoctoral research fellow at the Cornell Lab of Ornithology, exploring new approaches for developing dynamic conservation programs by leveraging big citizen science datasets. I have a strong background in spatial statistics, decision science, literature review and big data analysis. My network of collaborators includes scientists from government (Environment and Climate Change Canada, Canadian Wildlife Service), non-governmental organizations (The Nature Conservancy and Nature Conservancy Canada), and several international academic institutions (Carleton University, The Cornell Lab of Ornithology, The University of Queensland, and The University of British Columbia).  
+I completed my PhD at Carleton University in 2023 specializing in quantitative conservation science. Currently, I am a Rose postdoctoral research fellow at the Cornell Lab of Ornithology, exploring new approaches for developing dynamic conservation programs by leveraging big citizen science datasets. I have a strong background in spatial statistics, decision science, literature review and big data analysis. My network of collaborators includes scientists from government (Environment and Climate Change Canada, Canadian Wildlife Service), non-governmental organizations (The Nature Conservancy and Nature Conservancy Canada), and several international academic institutions (Carleton University, The Cornell Lab of Ornithology, The University of Queensland, and The University of British Columbia).   
 
 
 ## EDUCATION
