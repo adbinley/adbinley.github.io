@@ -8,15 +8,30 @@ output:
 
 ## PEER-REVIEWED PUBLICATIONS
 
-[Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en)  
-[Research Gate](https://www.researchgate.net/profile/Allison-Binley)
+See my [Google Scholar Profile](https://scholar.google.ca/citations?user=CrX15nAAAAAJ&hl=en) for the most up to date publication list  
 
+1. Hanna, D.E.L., Harper, M., Giroux-Bougard, X., Richardson, J.S., Rytwinski, T., Bachhuber, A., Hudgins, E.J., Karimi, S., Schuster, R., **Binley, A.D.**, Reedman, R., Vincent, J.G., Bennett, J R. 2025. [An evidence map of research assessing the effects of timber harvesting on water quality, biotic and biodiversity indicators in running waters](https://doi.org/10.1016/j.foreco.2024.122425). Forest Ecology and Management. 580, 122425.
 
-1. **Binley, A.D.**, Vincent, J.G., Rytwinski, T., Soroye, P., Bennett, J.R. Making the Most of Existing Data in Conservation Research. In press in Perspectives in Ecology and Conservation    
+25. **Binley, A.D.**, Haddaway, L., Buxton, R., Lalla, K., Lesbarreres, D., Smith, P.A., Bennett, J.R. 2025. [Endangered Species lack research on the outcomes of conservation action](https://doi.org/10.1111/csp2.13304). Conservation Science and Practice. 7(2), e13304.
 
-17. Smith, A.C., **Binley, A.D.**, Daly, L., Edwards, P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L., Smith, P.A. Spatially explicit Bayesian hierarchical models for avian population status and trends. In press in Ornithological Applications.   
+24. **Binley, A.D.**, Hanson, J.O., Robinson, O.J., Golet, G.H., Bennett, J.R. 2025. [Quantifying the Value of Community Science Data for Conservation Decision-making](https://doi.org/10.1111/1365-2664.14863). Journal of Applied Ecology. 62(4), 1024-1036.
+
+23. Smith, A.C., Aponte, V., **Binley, A.D.**, Cox, A. R., Daly, L., Donkersteeg, C., Edwards, B.P.M., English, W.B., Hudson, M.R., Jefferys, K., Robinson, B., Roy, C. 2024. [Patterns and drivers of population trends on individual Breeding Bird Survey routes using spatially explicit models and route-level covariates](https://doi.org/10.5751/ACE-02736-190223). Avian Conservation and Ecology. 
+
+22. Holden, M., Akinlotan, M., **Binley, A.D.**, Cho, F., Helmstedt, K., Chades, I. 2024. [Why shouldn't I collect more data? Reconciling disagreements between intuition and value of Information analyses](https://doi.org/10.1111/2041-210X.14391). Methods in Ecology and Evolution. 15(9), 1580-1592.
+
+21. Hudgins, E.J., Leung, B., MacQuarrie, C.J.K., McCullough, D.G., Francis, A., Lovett, G.M., Guo, Q., Potter, K.M., Cullingham, C.I., Koch, F.H., Bergman, J.N., **Binley, A.D.**, Robichaud, C., Henry, M., Chen, Y., Bennett, J.R. 2024. [Five organizing themes for invasive forest insect and disease management in Canada and the United States](https://doi.org/10.1016/j.foreco.2024.122046). Forest Ecology and Management. 566, 122046.
+
+20. Edwards, B.P.M., **Binley, A.D.** 2024. [Evidence for a possible range expansion of White-fronted Bee-eater into Western and Eastern Cape, South Africa](https://doi.org/10.15641/bo.1375). Biodiversity Observations. 14, 27-34. 
+
+19. Bennett, J.R., Edwards, B.P.M., Bergman, J., **Binley, A.D.**, Buxton, R., Hanna, D., Hanson, J., Hudgins, E., Karimi, S., Raymond, C., Robichaud, C., Rytwinski, T. 2024. [How ignoring detection probability hurts biodiversity conservation](https://doi.org/10.1002/fee.2782). Frontiers in Ecology and the Environment. p.e2782
+
+18. **Binley, A.D.**, Vincent, J.G., Rytwinski, T., Soroye, P., Bennett, J.R. [Making the Most of Existing Data in Conservation Research](https://doi.org/10.1016/j.pecon.2023.11.004). Perspectives in Ecology and Conservation, 22(2), 122-128.     
+
+17. Smith, A.C., **Binley, A.D.**, Daly, L., Edwards, P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L., Smith, P.A. [Spatially explicit Bayesian hierarchical models for avian population status and trends. Ornithological Applications](https://doi.org/10.1093/ornithapp/duad056). 126(2), 1-16. 
 
 16. **Binley, A.D.**, Bennett, J.R. ,Schuster, R., Rodewald, A.D., Fink, D., La Sorte, F., Zuckerberg, B., and Wilson, S. 2023. [Species traits drive responses of forest birds to agriculturally-modified habitats throughout the annual cycle](https://doi.org/10.1111/ecog.06457). Ecography 2023(9), p.e06457   
+
 15. **Binley, A.D.**, and Bennett, J.R. 2023. [The Data Double Standard](https://doi.org/10.1111/2041-210X.14110). Methods in Ecology and Evolution 14(6), 1389-1387.
 
 14. Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J., Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V., **Binley, A.D.**, … Braga PHP. 2023. [Not Just for Programmers: How Github Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution](https://doi.org/10.31222/osf.io/x3p2q). Methods in Ecology and Evolution 14(6): 1364-1380.   
@@ -26,7 +41,6 @@ output:
 12. **Binley, A.D.**, Edwards, B.P., Dansereau, G., Knight, E.C. and Momeni-Dehaghi, I., 2023. [Minimizing Data Waste: Conservation in the Big Data Era](https://doi.org/10.1002/bes2.2056). The Bulletin of the Ecological Society of America, e2056. 
 
 11. Schuster, R., Buxton, R., Hanson, J.O., **Binley, A.D.**, Pittman, J., Tulloch, V., La Sorte, F.A., Verburg, P.H., Rodewald, A.D., Wilson, S., Possingham, H.P., and Bennett, J.R. 2023. [Protected Area Planning to Conserve Biodiversity in an Uncertain Future](https://doi.org/10.1111/cobi.14048). Conservation Biology, e14048. 
-
 10. Soroye, P., Buxton, R.T., Ethier, J.P., Frempong-Manso, A., Edwards, B.P.M., Keefe, H., Berberi, A., Roach-Krajewski, M., **Binley, A.D.**, Vincent, J.G., Cooke, S.J. and Bennett, J.R. 2022. [The risks and rewards of community science for threatened species monitoring](https://doi.org/10.1111/csp2.12788). Conservation Science and Practice, e12788.
 
 9. Lin, H., **Binley, A.D.**, Schuster, R., Rodewald, A.D., Buxton, R., and Bennett, J.R. 2022. [Using community science data to help identify threatened species occurrences outside of known ranges](https://doi.org/10.1016/j.biocon.2022.109523). Biological Conservation, 268: 109523. 
@@ -51,29 +65,30 @@ output:
 
 ## PUBLICATIONS IN REVIEW
 
-1. Bennett, J.R., Edwards, B.P.M., Bergman, J., **Binley, A.D.**, Buxton, R., Hanna, D., Hanson, J., Hudgins, E., Karimi, S., Raymond, C., Robichaud, C., Rytwinski, T. How ignoring detection probability hurts biodiversity conservation. In review in Frontiers in Ecology and the Environment (submitted 16/04/2023) ID: FEE23-0086    
-
-3. Edwards, B.P.M., **Binley, A.D**. Evidence for a possible range expansion of White-fronted Bee-eater into Western and Eastern Cape, South Africa. In review in Afrotropical Bird Biology: Journal of the Natural History of African Birds (submitted 31/05/2023) ID: 1373   
-
-2. Holden, M., Akinlotan, M., **Binley, A.D.**, Cho, F., Helmstedt, K., Chades, I. Why shouldn't I collect more data? Reconciling disagreements between intuition and value of Information analyses. In review in Methods in Ecology and Evolution (submitted 26/09/2023) ID: MEE-23-09-554    
-
-1. **Binley, A.D.**, Hanson, J.O., Robsinson, O.J., Golet, G.H., Bennett, J.R. Quantifying the Value of Community Science Data for Conservation Decision-making. In review in Nature Sustainability (submitted 09/11/2023) ID: NATSUSTAIN-23114277
+1. Hanson, J.O., Delsen, D.M., **Binley, A.D.**, Jung, M., Hermoso, V., Visconti, P., Allan, J., Chapman, M., Schuster, R., Bennett, J.R. Optimizing establishment and management of conserved areas. In review in Nature Communications.
 
 
 ## PREPRINTS
 
-1. Smith, A.C., Aponte, V., Hudson, M.R., English, W.B., Jefferys, K., **Binley, A.D.**, Robinson, B., Donkersteeg, C., Edwards, B.P.M., Daly, L., Cox, A.R., Roy, C. [Tracking the spatial patterns and the drivers of population trends on individual Breeding Bird Survey routes using spatially explicit models and route-level covariates.](https://doi.org/10.32942/X2SP5J)   
+1. **Binley, A.D.**, Haddaway, L., Buxton, R., Lalla, K., Lesbarreres, D., Smith, P.A., Bennett, J.R. Trimming the hedges in a hurricane: Endangered Species lack research on the outcomes of conservation action. https://doi.org/10.32942/X2GS4D
 
-3. Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J., Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V., **Binley, A.D.**, … Braga PHP. [Not Just for Programmers: How Github Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution.](https://doi.org/10.31222/osf.io/x3p2q)    
+5. **Binley, A.D.**, Hanson, J.O., Robsinson, O.J., Golet, G.H., Bennett, J.R. Quantifying the Value of Community Science Data for Conservation Decision-making. https://doi.org/10.32942/X2V325
 
-2. **Binley, A.D.**, Vincent, J.G., Rytwinski, T., Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. [Patterns of community science data use in peer-reviewed research on biodiversity.](https://biorxiv.org/cgi/content/short/2022.10.17.512636v1)   
+4. Smith, A.C., Aponte, V., Hudson, M.R., English, W.B., Jefferys, K., **Binley, A.D.**, Robinson, B., Donkersteeg, C., Edwards, B.P.M., Daly, L., Cox, A.R., Roy, C. Tracking the spatial patterns and the drivers of population trends on individual Breeding Bird Survey routes using spatially explicit models and route-level covariates. https://doi.org/10.32942/X2SP5J
 
-1. Smith, A.C., **Binley, A.D.**, Daly, L., Edwards, P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L., Smith, P.A. [Spatially explicit Bayesian hierarchical models for avian population status and trends.](https://doi.org/10.32942/X2088D)
+3. Crystal-Ornelas, R., Edwards, B.P.M., Hébert, K., Hudgins, E.J., Sánchez-Reyes, L.L., Scott, E.R., Grainger, M., Foroughirad, V., **Binley, A.D.**, … Braga PHP. Not Just for Programmers: How Github Can Accelerate Collaborative and Reproducible Research in Ecology and Evolution. https://doi.org/10.31222/osf.io/x3p2q
+
+2. **Binley, A.D.**, Vincent, J.G., Rytwinski, T., Proctor, C.A., Urness, E.S., Davis, S.A., Soroye, P., Bennett, J.R. Patterns of community science data use in peer-reviewed research on biodiversity.  https://biorxiv.org/cgi/content/short/2022.10.17.512636v1 
+
+1. Smith, A.C., **Binley, A.D.**, Daly, L., Edwards, P.M., Ethier, D.M., Frei, B., Iles, D., Meehan, T.D., Michel, N.L., Smith, P.A. Spatially explicit Bayesian hierarchical models for avian population status and trends. https://doi.org/10.32942/X2088D 
+
 
 
 ## NON-PEER REVIEWED PUBLICATIONS AND REPORTS
 
-1. Rhodes, J., Williams, B., **Binley, A.D.**, Chung, Y.F., Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N., Chen, S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth and Environmental Sciences, The University of Queensland). 2022. Feedback Submission on a Biodiversity Market.
+1. Wilson, S., P. Smith, E. Kenchington, M. Ballard, R. Buxton, K. Bobiwash, S. J. Marshall, E. Gilmore, É. Abergel, J. Allison, D. Arbuthnott, S. Avery-Gomm, N. C. Ban, K. F. Beazley, J. R. Bennett, E. Bennett, **A. D. Binley** et al. 2024. Science and knowledge needs to support Canada’s implementation of the Kunming-Montreal Global Biodiversity Framework.  Report prepared for Environment and Climate Change Canada, 62 pp.  Available at: https://open-science.canada.ca/handle/123456789/2214
+
+3. Rhodes, J., Williams, B., **Binley, A.D.**, Chung, Y.F., Cho, F., Brisbane, S., Tedesco, A., Budhathoki, N.K., Maitz, N., Chen, S., Abeysinghe, N. (Sustainable Landscapes Group, School of Earth and Environmental Sciences, The University of Queensland). 2022. Feedback Submission on a Biodiversity Market.
 
 2. **Binley, A.D.** and Vincent, J.G. 2020. Book Review: Bird Therapy (Harkness, J.). Marine Ornithology, 48(1): 141-144.
 
