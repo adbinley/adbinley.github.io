@@ -13,6 +13,9 @@ navbar:
     - text: "Publications"
    #   icon: fa-pencil
       href: publications.html
+    - text: "Opportunities"
+   #   icon: fa-pencil
+      href: opportunities.html
   right:
     - icon: fa-github
       href: https://github.com/adbinley      # CHANGE HERE 

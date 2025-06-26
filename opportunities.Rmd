@@ -1,0 +1,28 @@
+---
+title: "Opportunities"
+output:
+  html_document:
+    includes:
+      in_header: opportunities-cover.Rhtml
+---
+
+**Start Date**    
+September 2026 or later   
+
+**Details**   
+Multiple funded Master's and  PhD positions available looking at quantitative approaches to supporting ecosystem resilience in anthropogenically-modified landscapes. Opportunities exist to collaborate with government and NGOs. Stipends TBD (will be posted here shortly) but will take into account cost of living and tuition.
+
+Our lab aims to:    
+- Develop novel methodologies for synthesizing and translating disparate data sources to enhance our knowledge of ecosystem processes   
+- Use this knowledge to assess the threats that impact ecological systems, and the actions that are effective at preserving them   
+- Incorporate this knowledge into decision-science frameworks to optimize conservation planning processes involving multiple objectives    
+
+**Qualifications**    
+- Undergraduate degree in statistics, ecology,
+computer science, or other relevant focus   
+- Passion for conservation research   
+- Experience conducting statistical analyses in R (or other programming languages) is considered an asset, but training will be provided       
+
+**To apply**    
+Email a short cover letter and your CV to Dr.
+Allison Binley (she/her) at allison.binley@umanitoba.ca (please also cc adb299@cornell.edu).
