@@ -3,7 +3,7 @@ title: "Opportunities"
 output:
   html_document:
     includes:
-      in_header: opportunities-cover.Rhtml
+      in_header: opportunities-cover.html
 ---
 
 **Start Date**    
